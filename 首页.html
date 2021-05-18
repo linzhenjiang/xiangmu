@@ -1,0 +1,2695 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>王者荣耀官方网站</title>
+		<script src="js/jquery-3.5.1.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/end.css"/>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+				list-style: none;
+				font-family: "微软雅黑";
+				text-decoration: none;			
+			}
+			body{
+				min-width: 1423.33px;
+			}
+			header{
+				width: 100%;
+				height: 126px;
+			}
+			header>.header_one{
+				width: 100%;
+				height: 42px;
+				background: white;
+				
+			}
+			header>.header_one>ul>.lis1{
+				width: 130px;
+				height: 40px;
+				float: left;
+				margin-left: 200px;
+			}
+			header>.header_one>ul>.lis1>a>img{
+				width: 100%;
+				height: 100%;				
+			}
+			header>.header_one>ul>.lis2{
+				width: 230px;
+				height: 40px;
+				float: left;
+				margin-left: 10px;
+			}
+			header>.header_one>ul>.lis2>a>img{
+				width: 100%;
+				height: 100%;	
+			}
+			header>.header_one>ul>a{
+				font-size: 15px;
+				padding: 7px;
+				position: relative;
+				left: 30%;
+				top:10px;
+			}
+			header>.header_one>ul>a:hover{
+				color: red;
+			}
+			header>.header_one>ul>a>img{
+				width: 20px;
+				height: 18px;
+				position: relative;
+				top:5px;
+			}
+			/* 头部2 */
+			header>.header_two{
+				width: 100%;
+				height: 84px;
+				background: rgb(14,11,8);
+			}
+			header>.header_two>a{
+				width: 220px;
+				height: 70px;
+				float: left;
+				margin: 5px 80px ;
+			}
+			header>.header_two>a>img{
+				width: 100%;
+				height: 100%;
+			}
+			header>.header_two>ul>li{
+				width: 110px;
+				height: 64px;
+				float: left;
+				padding-top:17px;
+				line-height: 42px;
+				font-size: 18px;
+				text-align: center;
+			}
+			header>.header_two>ul>li:hover{
+				border-bottom: 1px solid gold;
+				background: url(img/index.png);
+			}
+			header>.header_two>ul>li>a{
+				color:#c9c9dd;
+				text-decoration: none;
+			}
+			header>.header_two>ul>li>em{
+				font-size: 12px;
+				line-height: 16px;
+				color: #858792;
+				font-style: normal;
+				text-align: center;
+				display: block;
+			}
+			header>.header_two>.span1{
+				width: 60px;
+				height: 60px;
+				background-image: url(img/pi.png);
+				float: left;
+				margin: 18px 15px;
+				background-size: 100% ;
+			}
+			header>.header_two>div{
+				height: 80px;
+				width: 200px;
+				float: left;
+				position: relative;
+				z-index: 10px;
+			}
+			header>.header_two>div>img{
+				width: 40px;
+				height: 40px;
+				border: 1px solid gold;
+				border-radius: 50%;
+				float: left;
+				margin: 22px 25px;
+			}
+			header>.header_two>div>a{
+				float: left;
+				margin: 22px -15px;
+				color: aliceblue;	
+			}
+			header>.header_two>div>p{
+				width: 140px;
+				height: 20px;
+				color: gray;
+				font-size: 15px;
+				float: right;
+				margin:-41px -15px;
+			}
+			header>.header_three{
+				width: 100%;
+				height: 300px;
+				/* border: 1px solid saddlebrown; */
+				float: left;
+				margin: 0px auto;
+				position: absolute;
+				top: 125px;
+				left: 0px;
+				z-index: 3;
+				background: rgba(0,0,0,0.5);
+				/* display: none; */
+			}
+			header>.header_three>ul{
+				width: 800px;
+				height: 285px;
+				/* border: 1px solid saddlebrown; */
+				float: left;
+				
+				margin: 0px 375px;
+			}
+			header>.header_three>ul>li{
+				width: 110px;
+				height: 80%;
+				/* border: 1px solid salmon; */
+				float: left;
+				line-height: 40%;
+				text-align: center;
+			}
+			header>.header_three>ul>li>a{
+				height: 30px;
+				line-height: 30px;
+			    display: block;
+				margin-top: 5px;
+			    padding: 0;
+			    font-size: 14px;
+			    color: #c9c9dd;
+			}
+			header>.header_three>ul>li>a:hover{
+				color: gold;
+				text-decoration: underline;
+			}
+			header>.header_three>ul>li>a>img{
+				width: 16px;
+				height: 16px;
+				border-radius: 50%;
+				box-shadow: 0px 0px 15px black;
+				position: relative;
+				top:2px;
+				right: 2px;
+			}
+			                                                                               /* 第一头部 */
+			nav{
+				width: 100%;
+				height: 754px;
+			}
+			nav>div{
+				width: 100%;
+				height: 800px;
+				background-image:url(//ossweb-img.qq.com/upload/webplat/info/yxzj/20200807/9771361431874.jpg);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;			
+			}
+			nav .nav_one{
+				width: 100%;
+				height: 390px;
+				position: relative;
+				/* border: 1px solid saddlebrown; */
+			}
+			nav .nav_one>a{
+				width: 75%;
+				height: 388px;
+				display: block;
+				margin: 0px auto;
+			}
+			nav .nav_two{
+				width: 85%;
+				height: 342px;
+				margin: 0px auto
+			}
+			nav .nt_left{
+				width: 50%;
+				height: 342px;
+				float: left;
+			}
+			nav .lunbo{
+				width: 100%;
+				height: 298px;
+				overflow: hidden;
+			}
+			nav .lunbo>ul{
+				height: 298px;
+				width: 3630px;
+				position: relative;
+				top: 0px;
+				left: 0px;
+			}
+			nav .lunbo>ul>li{
+				width: 605px;
+				height: 298px;
+				float: left;				
+			}
+			nav .lunbo>ul>li>img{
+				width: 100%;
+				height: 100%;
+			}
+			nav .lunbo_xia{
+				width: 100%;
+				height: 44px;
+				background: rgb(55,54,61);
+			}
+			nav .lunbo_xia>span{
+				width: 20%;
+				height: 44px;
+				float: left;line-height: 44px;
+				text-align: center;
+				font-size: 14px;
+				color: #808080;			
+			}
+			nav .lunbo_xia>span:hover{
+				color: gold;
+				background: rgb(84,83,90);
+			}
+
+			nav .nt_right1{
+				width: 16%;
+				height: 128px;
+				float: left;
+
+			}
+			nav .nt_right2{
+				width: 16%;
+				height: 107px;
+				float: left;
+			}
+			nav .nt_right3{
+				width: 16%;
+				height: 107px;
+				float: left;
+			}
+			nav .nt_right3>a>img{
+				width: 100%;
+				height: 100%;
+			}
+			nav .nt_right2>a>img{
+				width: 100%;
+				height: 100%;
+			}
+			nav .nt_right1>a>img{
+				width: 100%;
+				height: 100%;
+			}
+			/* 公告/新闻部分 */
+			nav .nt_mid{
+				width: 34%;
+				height: 342px;
+				background: rgba(0,0,0,0.8);
+				float: left;
+			}
+			.nt_mid>.nt_mid1{
+				width: 325px;
+				height: 49px;
+				margin: 0px auto;	
+			}
+			.nt_mid>.nt_mid1>a{
+				position: relative;
+				top:10px;
+				left: 15px;
+			}
+			.nt_mid>.nt_mid1>li{
+				width: 55px;
+				height: 48px;
+				line-height: 48px;
+				text-align: center;
+				float: left;
+				margin-bottom:1px ;
+			}
+			.nt_mid>.nt_mid1>li>a{
+				color:#808080 ;
+			}
+			.nt_mid>.nt_mid1>li:hover>a{
+				color: gold;				
+			}
+			.nt_mid>.nt_mid1>li:hover{
+				border-bottom: 2px solid gold;
+			}
+			.nt_mid .nt_mid2{
+				width: 325px;
+				height: 286px;
+				margin: 2px auto;
+				border-top: 1px solid black;
+				overflow: hidden;
+			}
+			.nt_mid .nt_mid2>ul{
+				width: 1625px;
+				height: 286px;
+				position: relative;			
+			}
+			.nt_mid .nt_mid2>ul>li{
+				width: 325px;
+				height: 286px;
+				float: left;
+			}
+			.nt_mid .nt_mid2>ul>li>ul>li{
+				width: 325px;
+				height: 20.67px;
+				margin-bottom: 11px;
+				margin-right: 25px;	
+			}
+			.nt_mid .nt_mid2>ul>li>ul>li>a{
+				font-size: 15px;
+				margin-left: 5px;
+				color: darkgray;
+			}
+			.nt_mid .nt_mid2>ul>li>ul>li>.sp_gg{
+				width: 30px;
+				height: 18px;
+				border: 1px solid gold;
+				border-radius: 5px;
+				color: gold;
+				font-size: 5px;
+				padding: 2px;
+				position: relative;
+                bottom: 2px;				
+			}
+			.nt_mid .nt_mid2>ul>li>ul>li>em{
+				color: darkgray;
+				font-size: 12px;
+				font-style: normal;
+				float: right;
+				color: #808080;
+				position: relative;
+				top: 4px;
+			}
+			.nt_lis1{
+				height: 36px;
+				text-align: center;
+				background: rgb(65,64,70);
+				margin: 6px 0px 11px;
+				padding: 12px 0;	
+				font-size: 20px;
+			}
+			.nt_mid .nt_mid2>ul>li>ul>li>.sp_xw{
+				width: 30px;
+				height: 18px;
+				border: 1px solid dodgerblue;
+				border-radius: 5px;
+				color: dodgerblue;
+				font-size: 5px;
+				padding: 2px;
+				position: relative;
+			    bottom: 2px;				
+			}
+			.nt_mid .nt_mid2>ul>li>ul>li>.sp_ss{
+				width: 30px;
+				height: 18px;
+				border: 1px solid red;
+				border-radius: 5px;
+				color: red;
+				font-size: 5px;
+				padding: 2px;
+				position: relative;
+			    bottom: 2px;				
+			}
+            /* 中部四个图片放大 */
+			.zhongbu{
+				width: 85%;
+				height: 134px;
+				margin: 0px auto;
+			}
+			.zhongbu>ul>li{
+				width: 24%;
+				float: left;
+				margin-right: 16px;
+				overflow: hidden;
+			}
+			.zhongbu>ul>li>a>img{
+				transition: all 0.5s;
+			}
+			.zhongbu>ul>li>a>img:hover{
+				transform:scale(1.1);
+			}
+			/* 内容中心和英雄/皮肤部分 */
+			section{
+				width: 85%;
+				height: 530px;
+				margin: 20px auto;
+				/* background: salmon; */
+			}
+			section>.sec_left{
+				width: 72%;
+				height: 528px;
+				float: left;
+			}
+			section>.sec_right{
+				width: 24.5%;
+				height: 528px;
+				float: right;
+			}
+			.s_head{
+				width: 100%;
+				height: 26px;
+				/* background: sandybrown; */
+				margin: 0px 0px 16px;
+			}
+			section .s_head>h3{
+				width: 140px;
+				height: 26px;
+				font-size: 22px;
+				float: left;
+			}
+			section .s_head>a{
+				color: grey;
+				float: right;
+				position: relative;
+				top: 8px;
+			}
+			section .s_head>a:hover{
+				color:gold;
+			}
+			section .s_head>a>img{
+				width: 16px;
+				height: 16px;
+				position: absolute;
+				top:2px;
+				right:30px;
+				margin-right: 5px;
+			}
+			.s_top{
+				width: 100%;
+				height: 26px;
+				/* background: sandybrown; */
+				margin: 0px 0px 16px;
+			}                                               
+			/* 英雄/皮肤部分 */
+			section .s_top>a>img{
+				width: 16px;
+				height: 16px;
+				position: absolute;
+				color: gray;
+				top:2px;
+				right:30px;
+				margin-right: 5px;
+			}
+			section .s_top>h3>{
+				width: 140px;
+				height: 26px;
+				font-size: 22px;
+				float: left;
+			}
+			section .s_top>a{
+				color: grey;
+				float: right;
+				position: relative;
+				top: -18px;
+			}
+			section .s_top>a:hover{
+				color:gold;
+			}
+			section .s_top>img{
+				width: 23px;
+				height: 21px;
+				position: relative;
+				top:0px;
+				left: 0px;
+				float: left;
+				margin-right: 5px;
+				
+			}
+			section .s_nav{
+				width: 100%;
+				height: 35px;
+				background: #f5f5f5;
+				text-align: center;
+				line-height: 35px;				
+			}
+			section .s_mid2{
+				width: 100%;
+				height: 35px;
+				background: #f5f5f5;
+				text-align: center;
+				line-height: 35px;				
+			}
+			section .s_mid2>a{
+				width: 33%;
+				height: 28px;
+				float: left;
+				color: #999;
+				font-size: 15px;
+				border-right:1px solid lightgrey;
+				margin-top: 3px;
+			}
+			section .s_nav>a{
+				width: 33%;
+				height: 28px;
+				float: left;
+				color: #999;
+				font-size: 15px;
+				margin-right: 1px;
+				border-right:1px solid lightgrey;
+				margin-left: 1px;
+				margin-top: 3px;
+			}
+			section .s_nav1{
+				width: 100%;
+				height: 43px;
+				overflow: hidden;
+			}
+			section .s_nav1>ul{
+				float: left;
+				margin-left: 20px;
+				position: relative;
+			}
+			section .s_nav1>ul>li{
+				height: 26px;
+				float: left;
+				line-height: 26px;
+				text-align: center;
+				margin-top: 16px ;
+				margin-right: 12px;
+				border-radius: 10px;
+				box-shadow: 0px 0px 2px #808080;
+				font-size: 14px;
+				background: #f5f5f5;
+				padding:0px 3px;
+			}
+			section .s_nav1>ul>.lis3{
+				width: 100px;
+				position: absolute;
+			    right: 520px;
+				top:39px;
+				background: white;
+				box-shadow: none;
+			}
+			section .s_nav1>ul>.lis3>span{
+				width: 16px;
+				height: 16px;
+				background-image: url(img/xiala.png);
+                background-size: 100% 100%;	
+			    position: relative;
+				top:0px;
+				left: 1px;	
+			}
+			section .s_nav1>ul>li>a{
+				height: 26px;
+				color: rgba(0,0,0,0.6);
+			}
+			/* 内容中心——视频库切换 */
+		    .qiehuan{
+				width: 100%;
+				height: 400px;
+				margin-top: 13px;
+				overflow: hidden;
+			}
+			.qiehuan>div{
+				position: relative;
+			}
+			.qiehuan>div>ul>li{
+				width: 23.5%;
+				height:191px;
+				float: left;
+				margin-right: 2%;
+				margin-bottom: 1.1%;
+				position: relative;
+				border-radius: 5px;
+			}
+			.qiehuan>div>ul>li:nth-of-type(4n){
+				margin-right: -2%;
+			}
+			.qiehuan>div>ul>li>img{
+				width: 100%;
+				height: 125px;
+				position: relative;
+			}
+			.qiehuan>div>ul>li>.bigreplay:hover{
+				/* filter: brightness(.5);*/
+				opacity: 0.7;
+			}
+			.qiehuan>div>ul>li>.bigreplay{
+				width: 100%;
+				height: 127px;
+				float: left;
+				background: rgba(0,0,0,0.7);
+				opacity: 0;
+				position: relative;
+				top:-171px;
+				left: 0px;
+				
+			}
+			.qiehuan>div>ul>li>.bigreplay>span{
+				background-image: url(img/bigrepaly.png);
+				background-size: 100% 100%;
+				position: relative;
+				top:40%;
+				left: 38%;
+				padding:10px 26px;
+			}
+			.qiehuan>div>ul>li>a{
+				width: 100%;
+				height: 20%;
+				/* background: salmon; */
+				color: #333333;
+				font-size: 13px;
+			}
+			.qiehuan>div>ul>li>p{
+				width: 100%;
+				height:12%;
+				padding:0px 9px;
+				background: rgba(0,0,0,0.6);
+				position: absolute;
+				top:103px;
+				left: 0px;
+				color: white;
+				font-size: 12px;
+				line-height: 22px;
+				box-sizing: border-box;
+			}
+			.qiehuan>div>ul>li>p>span>img{
+				width: 16px;
+				height: 16px;
+				border-radius: 50%;
+				position: relative;
+				top:2px;
+				right: 2px;
+			}
+			.qiehuan>div>ul>li>p>em{
+				float: right;
+			}
+			.s_Foot{
+				width: 100%;
+				height:432px;
+				margin-top: 20px;
+				overflow: hidden;
+			}
+			.s_Foot>div{
+				width: 900px;
+				height: 440px;
+				position: relative;				
+			}
+			.s_Foot>div>div{
+				float: left;
+			}
+			.s_foot{
+				width: 297.09px;
+				height:440px;
+			}
+			.s_foot>a{
+				width: 100%;
+			}
+			.s_foot>a>img{
+				width: 100%;
+			}
+			.s_foot>.s_footmid{
+				margin-top: -5px;
+				width: 100%;
+				height: 68px;
+				padding: 10px 15px;
+				border:1px solid #e5e5e5;
+				border-top: none;
+				box-sizing: border-box;
+			}
+			.s_foot>.s_footmid>p{
+				color:#999999;
+				font-size: 12px;
+				margin-top: 3px;
+			}
+			.s_foot .s_footmid2{
+				width: 100%;
+				height: 191px;
+				margin-top: 10px;
+			}
+			.s_foot .s_footmid2>ul>li{
+				float: left;
+				width: 66px;
+				height: 180px;
+				margin-right: 11px;
+				margin-bottom: 10px;
+				position: relative;
+			}
+			.s_foot .s_footmid2>ul>p{
+				width: 100%;
+				height: 20px;
+				color: #999999;
+				font-size: 13px;
+				text-align: right;
+			}
+			.s_foot .s_footmid2>ul>p>span{
+				width: 12px;
+				height: 12px;
+			}
+			.s_foot .s_footmid2>ul>p>span>img{
+				width: 16px;
+				height: 16px;	
+			}
+			.s_foot .s_footmid2>ul>li>a>img{
+				width: 100%;
+				height: 100%;
+			}
+			.s_foot .s_footmid2>ul>li>a>span{
+				    overflow: hidden;
+				    display: none;
+				    position: absolute;
+				    top: 0px;
+				    left: 26px;
+				    text-align: center;
+				    color: #f3c258;
+				    font-size: 14px;
+				    width: 34px;
+				    height: 100%;
+				    line-height: 16px;
+				    padding-left: 2px;
+				    -ms-writing-mode: tb-lr;
+				    -webkit-writing-mode: vertical-r;
+				    writing-mode: vertical-lr;
+				    letter-spacing: 0.3em;
+				    word-break: break-all;
+			}
+			.s_foot .s_footmid2>ul>li>a:hover>span{
+				display: block;
+			}
+            .s_foot .s_footmid2>ul>li>a:hover>img{
+				filter: brightness(.2);
+			}
+			 /* 赛事中心 */
+			footer{
+				width: 85%;
+				height: 800px;
+				/* background: seagreen; */
+				margin: 0px auto;
+			}
+			footer>.foot_left{
+				width: 72%;
+				height: 800px;
+				float: left;
+				/* background: silver; */
+			}
+			footer>.foot_left>.foot_head{
+				width: 100%;
+				height: 30px;
+				/* background: salmon; */
+				margin-bottom: 13px;
+			}
+			footer>.foot_left>.foot_head>h3{
+				float: left;
+			}
+			footer>.foot_left>.foot_head>h3>img{
+				width: 24px;
+				height: 24px;
+				margin-right: 2px;
+			}
+			footer>.foot_left>.foot_head>a{
+				float: right;
+				margin-top: 10px;
+				color: #808088;
+			}
+			footer>.foot_left>.foot_head>a:hover{
+				color: gold;
+			}
+			footer>.foot_left>.foot_head>a>img{
+				width: 16px;
+				height: 16px;
+				position: relative;
+				right: 2px;
+				top:2px;
+			}
+			footer>.foot_left>.foot_nav{
+				width: 100%;
+				height: 35px;
+				background: #f5f5f5;
+				text-align: center;
+				line-height: 35px;				
+			}
+			footer .foot_nav>a{
+				padding: 0px 24px;
+				height: 28px;
+				float: left;
+				color: #999;
+				font-size: 14px;
+				margin-right: 1px;
+				border-right:1px solid lightgrey;
+				margin-left: 1px;
+				margin-top: 3px;
+			}
+			footer .foot_lunbo{
+				width: 100%;
+				margin-top: 15px;
+			}
+			footer .foot_lunbo>li{
+				width: 100%;
+				height: 410px;
+				display: none;
+			}
+			footer .foot_lunbo>li>.f_lunbo1{
+				width: 100%;
+				height: 260px;
+				margin-bottom: 15px;
+				/* background: seagreen; */
+			}
+			footer .foot_lunbo>li>.f_lunbo1>img{
+				width: 211px;
+				height: 260px;
+				float: left;
+				margin-right: 15px;
+			}
+			footer .foot_lunbo>li>.f_lunbo1>li{
+				width: 630px;
+				height: 21px;
+				float: left;
+				margin-bottom: 8px;
+				
+			}
+			footer .foot_lunbo>li>.f_lunbo1>li>span{
+				height: 23px;
+				width: 50px;
+				text-align: center;
+				font-size: 12px;
+                line-height: 23px;
+				margin-right:4px ;
+				float: left;
+				background: #b8b9c5;
+				border-radius: 10px;
+				color: gray;
+			}
+			footer .foot_lunbo>li>.f_lunbo1>li>a{
+				width: 477px;
+				height: 21px;
+				color: black;
+				float: left;
+				overflow: hidden;
+				font-size: 15px;
+			}
+			footer>.foot_right{
+				width: 24.5%;
+				height: 800px;
+				float: right;
+				/* background: seagreen; */
+			}
+			footer>.foot_right>.foot_head{
+				width: 100%;
+				height: 30px;
+				/* background: salmon; */
+				margin-bottom: 13px;
+			}
+			footer>.foot_right>.foot_head>h3{
+				float: left;
+			}
+			footer>.foot_right>.foot_head>h3>img{
+				width: 24px;
+				height: 24px;
+				margin-right: 2px;
+				margin-top: 4px;
+			}
+			footer>.foot_right>.foot_head>a{
+				float: right;
+				margin-top: 10px;
+				color: #808088;
+			}
+			footer>.foot_right>.foot_head>a:hover{
+				color: gold;
+			}
+			footer>.foot_right>.foot_head>a>img{
+				width: 16px;
+				height: 16px;
+				position: relative;
+				right: 2px;
+				top:2px;
+			}
+			footer>.foot_right>.foot_nav{
+				width: 100%;
+				height: 35px;
+				background: #f5f5f5;
+				color: #999;
+			    font-size: 14px;
+			}
+			footer>.foot_right>.foot_nav>span{
+				width: 20%;
+				float: left;
+				margin-left: 10px;
+				line-height: 35px;
+			}
+			footer>.foot_right>.foot_foot{
+				width: 100%;
+				height: 50px;
+				padding-top: 5px;
+				border-bottom: 1px solid silver;
+				color: #999;
+				font-size: 14px;
+			}
+			footer>.foot_right>.foot_foot>span{
+				
+				float: left;
+				margin-left: 10px;
+				line-height: 70px;
+			}
+			footer>.foot_right>.foot_foot>.f2>img{
+				width: 20px;
+				height: 20px;
+				float: left;
+				position: relative;
+				left: 30px;
+			}
+			footer>.foot_right>.foot_foot>.f4>img{
+				width: 20px;
+				height: 20px;
+				float: left;
+				position: relative;
+				left: 30px;
+			}
+			footer>.foot_right>.foot_foot>.f2>p{
+				font-size: 10px;
+				float: left;
+			}
+			footer>.foot_right>.foot_foot>.f4>p{
+				font-size: 10px;
+				float: left;
+				margin-left: 15px;
+			}
+			footer>.foot_right>.foot_foot>.f3{
+				font-size: 20px;
+				color: gold;
+				position: relative;
+				left: 15px;
+				bottom: 10px;
+			}
+			footer>.foot_right>.foot_foot>.f1{
+				color: black;
+				line-height: 50px;
+			}
+			/* 右边妲己固定框 */
+			.r_nav{
+				position: fixed;
+				z-index: 3;
+				top: 50%;
+				right: 0;
+			    margin-top: -240px;
+				width: 254px;
+				height: 494px;
+				background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_navBg.png) ;
+			}
+			.r_nav>.r_dj{
+				position: absolute;
+			    top: 15px;
+			    left: 24px;
+			    z-index: 2;
+			    width: 165px;
+			    height: 145px;
+				background: url(./img/r_dj.png);
+			}
+			.r_nav>.r_dj>span{
+			    position: absolute;
+			    top: 37px;
+			    left: 12px;
+			    width: 88px;
+			    height: 36px;
+			    font-size: 14px;
+			    text-indent: 2px;
+			    font-weight: bold;
+			    line-height: 18px;
+			    color: #62401b;
+			    overflow: hidden;
+			}
+			.r_nav>.r_con{
+			    /* pointer-events: auto; */
+			    position: absolute;
+			    top: 160px;
+			    left: 85px;
+			}
+			.r_nav>.r_con>.r_con1{
+				width: 110px;
+				height: 110px;
+				border: 3px solid gold;
+				border-radius: 10px;
+			}
+			.r_nav>.r_con>.r_con1>img{
+				width: 100%;
+			}
+			.r_nav>.r_con>.r_con2{
+				width: 117px;
+				height: 38px;
+				background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all.png) no-repeat -122px -120px;
+			}
+			.r_nav>.r_con>.r_con2:hover{
+				background: url(img/r_all.png) no-repeat -122px -240px;
+			}
+			.r_nav>.r_con>.r_con3{
+				width: 117px;
+				height: 38px;
+				position: relative;
+			    background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all.png) no-repeat -122px -160px
+			}
+			.r_nav>.r_con>.r_con3:hover{
+				background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all.png) no-repeat -122px -200px;
+			}
+			.r_nav>.r_con>.r_con3:hover>.r_con33{
+				display: block;
+			}
+			.r_nav>.r_con>.r_con3>.r_con33{
+			    display: none;
+			    position: absolute;
+			    top: -66px;
+			    left: -115px;
+			    width: 115px;
+			    height: 144px;
+			    background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all.png) no-repeat 0 -416px;
+			    padding-top: 7px;
+				padding-left: 5px;		
+			}
+			.r_con33 p{
+				width: 160px;
+                height: 34px;
+                line-height: 17px;
+                color: #dcdcdc;
+                padding-right: -10px;
+                text-align:left;				
+			}
+			.r_con33 p>span{
+				color: #cd974b;
+			}
+			.r_foot{
+				width: 117px;
+				height: 38px;
+				position: relative;
+				background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all.png) no-repeat -122px 0;
+			}
+			.r_foot:hover{
+				background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all.png) no-repeat -122px -43px;
+			}
+			.r_con>li{
+				border-radius: 2px;
+				margin-bottom: 1px;
+			}
+			/*内容中心—英雄列表 */
+			.herolist{
+				width: 65%;
+				height: 69%;
+				background: white;
+				position: relative;
+				top:-401px;
+				left: 0px;
+				z-index: 10;
+				display: none;
+			}
+			.herolist>ul{
+				width: 78px;
+				height: 100%;
+				float: left;
+				background: #F5F5F5;
+			}
+			.herolist>ul>li{
+				width: 78px;
+				height: 42px;
+				text-align: center;
+				line-height: 35px;
+				color: #323235;
+				font-size: 14px;
+			}
+			.herolist>div{
+				width: 84%;
+				height: 334px;
+				float: right;
+				padding: 10px 5px;
+				/* display: none; */
+				overflow: auto;
+			}
+			.herolist>div>div{
+				width: 98%;
+				height: 334px;
+				float: right;
+				padding: 10px 5px;
+				display: none;
+			}
+			.herolist>div>div>a{
+				display: block;
+				width: 60px;
+				height: 60px;
+				color: #323235;
+				font-size: 14px;
+				float: left;
+				margin-right: 34px;
+				margin-bottom: 27px;
+				text-align: center;
+			}
+			.herolist>div>div>a:nth-of-type(5n){
+				margin-right: -27px;
+			}
+			.herolist>div>div>a>img{
+				width: 100%;
+				height: 100%;
+				border-radius:0 5px 0 5px ;
+			}
+			/* 顶部移入弹出图 */
+			.tanchu{
+				width: 937px;
+				height: 150px;
+				position: absolute;
+				top: 3px;
+				left: 350px;
+				z-index: 5;
+				display: none;
+			}
+			.tanchu>a>img{
+				width: 100%;
+				height: 100%;
+			}
+			.lis2:hover>.tanchu{
+				display: block;
+			}
+     		.xialatubiao{
+				width: 16px;
+				height: 16px;
+				background: url(img/xialatubiao.png);
+				background-size: 100% 100%;
+				position: absolute;
+                top: 10px;
+				right: -12px;
+			}
+			/* 腾讯游戏排行榜下拉框 */
+			.gamelist{
+			    width: 707px;
+			    height: 496px;
+			    font-size: 12px;
+			    line-height: 1.5;
+			    font-family: "Microsoft YaHei", Tahoma, "simsun", sans-serif;
+			    color: #333;
+			    background: #fafafa;
+				position: absolute;
+				top:42px;
+				right: 165px;
+				z-index: 10;
+				display: none;
+			}
+			.gamelist>ul{
+				width: 90%;
+				height: 90%;
+				margin: 0px auto;
+			}
+			.gamelist>ul>li{
+				width:33.3%;
+				height: 100%;
+				float: left;
+			}
+			.gamelist>ul>li>h2{
+			    font-size: 14px;
+			    font-weight: 700;
+			    line-height: 40px;
+			    margin-bottom: 20px;
+				position: relative;
+			}
+			.gamelist>ul>li>h2>a{
+				color: #333;
+			}
+			.gamelist>ul>li>h2>a::after{
+			    content: '';
+			    background: url(img/title_sprite.png);
+			    width: 30px;
+			    height: 30px;
+			    top: 5px;
+			    right: 35px;
+			    position: absolute;
+			    opacity: 0.2;
+			}
+			.list1{
+			    margin-bottom: 24px;
+			    width: 200px;
+			    position: relative;
+			}
+			.list1>img{
+			    position: absolute;
+			    width: 200px;
+			    height: 90px;
+			    top: 0;
+			    left: 0;
+			    opacity: 0;	
+			}
+			.list1>p{
+			    font-size: 14px;
+			    line-height: 24px;
+			    padding-left: 22px;	
+			}
+			.list1>div{
+			    position: absolute;
+			    width: 100%;
+			    height: 28px;
+			    text-align: center;
+			    background: rgba(0,0,0,0.7);
+			    top: 63px;
+			    left: 0;
+			    display: none;
+			}
+			.list1>div>a{
+			    float: left;
+			    width: 50%;
+			    font-size: 14px;
+			    line-height: 28px;
+			    color: #fff;	
+			}
+			.list1>span{
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    font-size: 12px;
+			    width: 16px;
+			    height: 16px;
+			    text-align: center;
+			    line-height: 16px;
+			    color: #fff;
+				background: gainsboro ;
+			}
+			/* 登陆部分 */
+            .heibu{
+				background-color: rgb(0, 0, 0);
+    			border-top: 1px solid rgb(230, 245, 255);
+    			position: absolute;
+    			height: 7472px;
+    			z-index: 9998;
+    			width: 100%;
+    			left: 0px;
+    			top: 0px;
+    			opacity: 0.7;
+    			display: none;
+			}
+			.denglu{
+				background-image: url(img/login.jpg);
+				background-repeat: no-repeat;
+				width: 530px;
+				height: 254px;
+				display: block;
+    			visibility: visible;
+   				position: fixed;
+    			z-index: 9999;
+    			left: 50%;
+    			top: 50%;
+   				margin-top: -127px;
+    			margin-left: -265px;
+    			display: none;
+			}
+			.denglu>a{
+				display: block;
+				width: 200px;
+				height: 60px;
+			}
+			.denglu>.weixin{
+				position: absolute;
+				top: 133px;
+    			left: 60px;
+			}
+			.denglu>.qq{
+				position: absolute;
+				top: 133px;
+    			left: 270px;
+			}
+			.denglu>.guanbi{
+				position: absolute;
+				top: 0px;
+				width: 100px;
+    			left: 430px;
+			}
+			.erweimadenglu{
+				width: 300px;
+				height: 460px;
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				background-color: white;
+				z-index: 9999;
+				display: none;
+			}
+			.erweimadenglu>.erweimadenglu_p1{
+				font-family: "微软雅黑";
+				width: 100%;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				font-size: 20px;
+				margin-top: 60px;
+			}
+			.erweimadenglu>span{
+				font-family: "微软雅黑";
+				font-size: 20px;
+				display: block;
+				width: 40px;
+				height: 30px;
+				position: absolute;
+				right: 0px;
+				top: 0px;
+				line-height: 30px;
+				text-align: center;
+			}
+			.erweimadenglu>.erweima{
+				width: 280px;
+				height: 280px;
+				position: absolute;
+				bottom: 60px;
+				left: 10px;
+			}
+			.erweimadenglu>.erweima>img{
+				width: 280px;	
+			}
+			.erweimadenglu>.erweimadenglu_p2{
+				width: 185px;
+				position: absolute;
+				bottom: 15px;
+				font-size: 14px;
+				text-align: center;
+				margin-left: 55px;
+			}
+			.qqdenglu{
+				width: 618px;
+				height: 364px;
+				background-color: white;
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				z-index: 9999;
+				display: none;
+			}
+			.qqdenglu>.qqdenglu_p1{
+				margin-top: 40px;
+			    font-size: 20px;
+    			color: #333;
+   				margin-bottom: 16px;
+   				text-align: center;
+			}
+			.qqdenglu>.qqdenglu_p2{
+			    color: #666;
+                font-size: 16px;
+                text-align: center;
+                position: relative;
+                margin-bottom: 36px;
+                zoom: 1;
+			}
+			.qqdenglu>.qqdenglu_p2>a{
+			    color:#3481cf;
+			    text-decoration: none;
+			}
+			.qqdenglu>.qqdenglu_erweima{
+				width: 134px;
+				margin: 20px auto;
+			}
+			.qqdenglu>.qqdenglu_erweima>img{
+				width: 134px;
+			}
+			.qqdenglu>.qqdenglu_footer{
+				position: absolute;
+				bottom: 0px;
+				padding: 10px;
+				right: 10px;
+			}
+			.qqdenglu>.qqdenglu_footer>a{
+				text-decoration: none;
+				color: #666;
+				font-size: 12px;	
+			}
+			.qqdenglu>.qqdenglu_other{
+				width: 92px;
+				height: 172px;
+				position: absolute;
+				top: 120px;
+				left: 155px;
+				display: none;
+				background-image: url(img/qr_tips.png);
+				background-repeat: no-repeat;
+			}
+			.qqmimadenglu{	
+				width: 618px;
+				height: 364px;
+				background-color: white;
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				z-index: 9999;
+				display: none;
+			}
+			.qqmimadenglu>.qqmimadenglu_p1{
+				margin-top: 40px;
+			    font-size: 20px;
+    			color: #333;
+    			margin-bottom: 16px;
+    			text-align: center;
+			}
+			.qqmimadenglu>.qqmimadenglu_p2{
+			    font-size: 16px;
+    			color: #666;
+    			text-align: center;
+			}
+			.qqmimadenglu>.qqmimadenglu_p2>a{
+				text-decoration: none;
+			    color: #3481cf;
+			}
+			.qqmimadenglu>.text{
+				position: absolute;
+				margin-left: 160px;
+				top: 150px;
+				width: 272px;
+    			height: 42px;
+			    background-image: url(img/icon_3_tiny.png);
+			    background-repeat: no-repeat;
+			    background-position: -1px -1px;
+			}
+			.qqmimadenglu>.passw{
+				position: absolute;
+				margin-left: 160px;
+				top: 200px;
+				width: 272px;
+    			height: 42px;
+			    background-image: url(img/icon_3_tiny.png);
+			    background-repeat: no-repeat;
+			    background-position: -1px -1px;
+			}
+			.qqmimadenglu>.text>#tex{
+				outline:none;
+				width: 258px;
+    			position: relative;
+    			top: 2px;
+    			left: 2px;
+    			height: 18px;
+    			padding: 10px 0 10px 10px;
+    			line-height: 18px;
+    			border: none;
+    			background: 0 0;
+    			color: #333;
+    			font-family: Verdana,Tahoma,Arial;
+    			font-size: 16px;
+			}
+            .qqmimadenglu>.passw>#pass{
+				outline:none;
+				width: 258px;
+    			position: relative;
+    			top: 2px;
+    			left: 2px;
+    			height: 18px;
+    			padding: 10px 0 10px 10px;
+    			line-height: 18px;
+    			border: none;
+    			background: 0 0;
+    			color: #333;
+    			font-family: Verdana,Tahoma,Arial;
+    			font-size: 16px;
+			}
+			.qqmimadenglu>div>label{
+				position: absolute;
+    			top: 13px;
+    	     	left: 13px;
+    			font-size: 14px;
+    			line-height: 16px;
+    			color: #aaa;
+    			cursor: text;
+			}
+			.qqmimadenglu>.btnm{
+				margin-left: 158px;
+				background-color: #86ce2f;
+				width: 278px;
+				height: 40px;
+				position: absolute;
+				top: 275px;
+			}
+			.qqmimadenglu>.btnm>#btn{
+				outline:none;
+				background-color: #86ce2f;
+				width: 278px;
+				border:none;
+				color: white;
+   				height: 40px;
+  				line-height: 35px;
+    			font-size: 17px;   
+			}
+			.qqmimadenglu>.qqmimadenglu_footer{
+				position: absolute;
+				bottom: 0px;
+				padding: 10px;
+				right: 10px;
+			}
+			.qqmimadenglu>.qqmimadenglu_footer>a{
+				text-decoration: none;
+				color: #666;
+				font-size: 12px;				
+			}
+			.qqdenglu>span{
+				position: absolute;
+				width: 20px;
+				height: 20px;
+				top: 10px;
+				right: 10px;
+			}
+			.qqmimadenglu>.span1{
+				position: absolute;
+				width: 20px;
+				height: 20px;
+				top: 10px;
+				right: 10px;
+			}
+			.qqmimadenglu>.span2{
+				color: red;
+				position: absolute;
+				display: inline-block;
+				top: 115px;
+				left: 200px;
+				display: none;
+			}			
+		</style>
+	</head>
+	<body>		
+		<!-- 右边妲己固定栏 -->
+		<div class="r_nav">
+			<div class="r_dj">
+				<span>下载王者营地每天领福利~</span>
+			</div>
+			<ul class="r_con">
+				<li class="r_con1"><img src="//game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_code.jpg" alt=""></li>
+				<li class="r_con2"></li>
+				<li class="r_con3">
+					<div class="r_con33">
+						<img src="//game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/gzh_code.jpg"  style="width: 100px;height: 100px;">
+						<p style="font-size: 8px;">扫码<span>关注官方公众号</span><br>获取<span>最新资讯及好礼</span></p>
+					</div>
+				</li>
+				<li class="r_foot"></li>
+			</ul>
+		</div>
+		<!-- 登陆按钮 -->
+        <div class="denglu">
+			<a class="weixin" href=""></a>
+		<a class="qq" href=""></a>
+		<a class="guanbi" href=""></a>			
+		</div>
+		<div class="heibu">			
+		</div>
+		<div class="erweimadenglu">
+			<p class="erweimadenglu_p1">微信登录</p>
+			<span>X</span>
+			<div class="erweima">
+				<img src="img/031JTprY3qDj0000.jpg"/>
+			</div>
+			<p class="erweimadenglu_p2">请使用微信扫描二维码登录“王者荣耀”</p>
+		</div>
+		<div class="qqdenglu">
+				<span>X</span>
+			<p class="qqdenglu_p1">快速安全登录</p>
+			<p class="qqdenglu_p2">请使用<a href="">QQ手机版</a>扫描二维码，安全登录，防止盗号。</p>
+			<div class="qqdenglu_erweima">
+				<img src="img/031JTprY3qDj0000.jpg"/>
+			</div>
+			<div class="qqdenglu_other">
+				
+			</div>
+			<div class="qqdenglu_footer">
+				<a href="">帐号密码登录</a><span>|</span><a href=""> 注册新帐号</a><span>|</span><a href=""> 意见反馈</a>
+			</div>
+		</div>
+		<div class="qqmimadenglu">
+				<span class="span1">X</span>
+				<span class="span2">请输入正确的账号</span>
+			<p class="qqmimadenglu_p1">快速安全登录</p>
+			<p class="qqmimadenglu_p2">推荐使用<a href="">快速安全登录</a>,防止盗号。</p>
+			<div class="text"><input type="text" name="" id="tex" value=""  placeholder="支持QQ号/邮箱/手机号登陆"/></div>
+			<div class="passw"><input type="password" name="" id="pass" value="" placeholder="请输入密码" /></div>
+			<div class="btnm"><input type="button" id="btn" value="登陆" /></div>
+			<div class="qqmimadenglu_footer">
+				<a href="">忘记密码？</a><span>|</span><a href=""> 注册新帐号</a><span>|</span><a href=""> 意见反馈</a>
+			</div>
+		</div>
+        <body>
+        	<div class="gamelist">
+				<ul>
+					<li >
+						<h2><a href="">游戏端游排行榜</a></h2>
+						<ul>
+							<li class="list1"><p>FIFA Online 4</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508153229-118491.jpg" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a>	</div><span style="background: #c62828;">1</span></li>
+							<li class="list1"><p>NBA2K oline</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508141437-381692.png" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a>	</div><span style="background: #c62828;">2</span></li>
+							<li class="list1"><p>天涯明月刀</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508152801-117434.jpg" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span style="background: #c62828;">3</span></li>
+							<li class="list1"><p>剑灵</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508153019-826252.jpg" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>4</span></li>
+							<li class="list1"><p>穿越火线</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508154052-883278.png" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>5</span></li>
+							<li class="list1"><p>逆战</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508153559-754724.png" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>6</span></li>
+							<li class="list1"><p>QQ炫舞</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508153434-796808.png" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>7</span></li>
+							<li class="list1"><p>使命召唤Online</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/undefined/ingame/images/201911/20191120203307-979066.jpg" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>8</span></li>				
+						</ul>
+					</li>
+					<li><h2><a href="">热门端游排行榜</a></h2>
+						<ul>
+							<li class="list1"><p>英雄联盟</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/201912/20191218150448-940180.jpg" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a>	</div><span style="background: #c62828;">1</span></li>
+							<li class="list1"><p>NBA2K oline</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508141437-381692.png" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a>	</div><span style="background: #c62828;">2</span></li>
+							<li class="list1"><p>天涯明月刀</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508152801-117434.jpg" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span style="background: #c62828;">3</span></li>
+							<li class="list1"><p>逆战</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508153559-754724.png" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>4</span></li>
+							<li class="list1"><p>QQ炫舞</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508153434-796808.png" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>5</span></li>
+							<li class="list1"><p>使命召唤Online</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/undefined/ingame/images/201911/20191120203307-979066.jpg" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>6</span></li>			
+							<li class="list1"><p>剑灵</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508153019-826252.jpg" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>7</span></li>
+							<li class="list1"><p>穿越火线</p>
+								<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508154052-883278.png" alt="">
+								<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>8</span></li>		
+						</ul></li>
+					<li><h2><a href="">新品手游排行榜</a></h2>
+					<ul>
+						<li class="list1" ><p>FIFA Online 4</p>
+							<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508153229-118491.jpg" alt="">
+							<div><a href="">进入官网</a><a href="">下载游戏</a>	</div><span style="background: #c62828;">1</span></li>
+						<li class="list1"><p>NBA2K oline</p>
+							<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508141437-381692.png" alt="">
+							<div><a href="">进入官网</a><a href="">下载游戏</a>	</div><span style="background: #c62828;">2</span></li>
+						<li class="list1"><p>天涯明月刀</p>
+							<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508152801-117434.jpg" alt="">
+							<div><a href="">进入官网</a><a href="">下载游戏</a></div><span style="background: #c62828;">3</span></li>
+						<li class="list1"><p>剑灵</p>
+							<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508153019-826252.jpg" alt="">
+							<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>4</span></li>
+						<li class="list1"><p>穿越火线</p>
+							<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508154052-883278.png" alt="">
+							<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>5</span></li>
+						<li class="list1"><p>逆战</p>
+							<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508153559-754724.png" alt="">
+							<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>6</span></li>
+						<li class="list1"><p>QQ炫舞</p>
+							<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/game/ingame/images/202005/20200508153434-796808.png" alt="">
+							<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>7</span></li>
+						<li class="list1"><p>使命召唤Online</p>
+							<img src="https://sy-1254960240.cos.ap-guangzhou.myqcloud.com/undefined/ingame/images/201911/20191120203307-979066.jpg" alt="">
+							<div><a href="">进入官网</a><a href="">下载游戏</a></div><span>8</span></li>				
+					</ul>
+					</li>
+				</ul>
+			</div>
+        </body>
+		<header>
+			<!-- 头部第一个框 -->
+			<div class="header_one">
+				<ul>
+					<li class="lis1"><a href="http://game.qq.com/index.shtml"><img src="img/logosd.png" ></a></li>
+					<li class="lis2"><a href=""><img src="https://tiem-cdn.qq.com/o2/images/15d8e2cfa7c006799bfce237b85290ab.jpg" ></a><div class="tanchu"><a href=""><img src="img/5af89c0a095d64517c8569cd335fd418.jpg" ></a>
+				</div></li>
+					<a><img src="img/2F8)%5BTM3PB(1C%5BU3PZ_63QX.png" >成长守护平台</a>
+					<a class="txyxb">腾讯游戏排行榜<span class="xialatubiao"></span></a>					
+				</ul>
+				<div class="tanchu">
+					<a href=""><img src="img/5af89c0a095d64517c8569cd335fd418.jpg" ></a>
+				</div>
+			</div>
+			<!-- 头部第二个框 --> 
+			<div class="header_two">
+				<a href="https://pvp.qq.com/"><img src="img/王者荣耀logo.png" ></a>
+				<ul>
+					<li><a href="https://pvp.qq.com/web201605/herolist.shtml">游戏资料</a><em>DATE</em></li>
+					<li><a href="https://pvp.qq.com/raiders/">内容中心</a><em>CONTENTS</em></li>
+					<li><a href="html/赛事中心.html">赛事中心</a><em>MATCH</em></li>
+					<li><a href="">百态王者</a><em>CULTURE</em></li>
+					<li><a href="">社区互动</a><em>COMMUNITY</em></li>
+					<li><a href="">玩家支持</a><em>PLAYER</em></li>
+				</ul>
+				<span class="span1"></span>
+				
+				
+				<div>
+					<img src="img/登录1.png" >
+					<a>欢迎登录</a>
+					<p>登录后查看游戏战绩</p>
+				</div>
+			</div>
+			<!-- 头部下拉隐藏框 -->
+			<div class="header_three">
+				<ul>
+					<li><a href="">版本介绍</a><a href="html/游戏介绍.html">游戏介绍</a><a href="">英雄介绍</a><a href=""><img src="img/new%20(2).png" >爆料站</a><a href=""><img src="img/new%20(2).png" >故事站</a><a href="">游戏壁纸</a></li>
+                    <li><a href="html/内容中心.html">攻略中心</a><a href="html/英雄攻略.html">英雄攻略</a><a href="html/视频中心.html">视频中心</a><a href=""><img src="img/new%20(2).png" >开放素材库</a><a href="">王者视角</a><a href="">作者入驻</a><a href="">媒体入驻</a></li>
+					<li><a href=""><img src="img/new%20(2).png" >世界冠军杯</a><a href="">KPL</a><a href=""><img src="img/new%20(2).png" >模拟战大师赛</a><a href="">KPLGT</a><a href="">高校赛</a><a href="">大众赛</a><a href="html/全民赛.html">全民赛</a><a href=""><img src="img/new%20(2).png" >赛事数据</a></li>
+					<li><a href="">荣耀-传承</a><a href="html/王者文化站.html">王者文化站</a><a href="">王者音乐听</a><a href="">万千世界</a><a href="">星光殿堂</a><a href="">商户特权</a><a href=""><img src="img/new%20(2).png" >无限王者团</a></li>
+					<li><a href="html/创意互动营.html"><img src="img/new%20(2).png" >创意互动营</a><a href=""><img src="img/new%20(2).png" >王者营地</a><a href="">手Q部落</a><a href="">微信圈子</a><a href="">官方微博</a><a href="">微信公众号</a><a href="">手Q订阅号</a><a href="html/同人社区.html">同人社区</a></li>
+					<li><a href=""><img src="img/2F8)%5BTM3PB(1C%5BU3PZ_63QX.png" >成长守护平台</a><a href=""><img src="img/健康证-01.png" >健康系统</a><a href=""><img src="img/new%20(2).png" >对局环境情报站</a><a href="">客服专区</a><a href="">礼包兑换</a><a href="html/自助服务.html">自助服务</a></li>
+				</ul>
+			</div>
+		</header>
+		
+		<nav>
+			<div><div class="nav_one"><a href="html/fmvp我曜定了.html"></a></div>		
+		<div><div class="nav_two">
+				<div class="nt_left">
+					<!-- 左一轮播图 -->
+					<div class="lunbo">
+						<ul>
+							<li><img src="img/lunbo1.jpg" ></li>
+							<li><img src="img/lunbo2.jpg" ></li>
+							<li><img src="img/lunbo3.jpg" ></li>
+							<li><img src="img/lunbo4.jpg" ></li>
+							<li><img src="img/lunbo5.jpg" ></li>
+							<li><img src="img/lunbo1.jpg" ></li>
+						</ul>
+					</div>
+					<div class="lunbo_xia">
+						<span style="color: gold;background: rgb(84,83,90);">王者全明星计划</span>
+						<span>阿古朵花式打法</span>
+						<span>天天爱消除</span>
+						<span>夏令营线下活动</span>
+						<span>春决重演</span>
+					</div>
+				</div>
+				<!-- 中间公告移动栏 -->
+				<div class="nt_mid">
+					<ul class="nt_mid1">
+					<li><a href="">公告</a></li>
+					<li><a href="">新闻</a></li>
+					<li><a href="">赛事</a></li>
+					<li><a href="">活动</a></li>
+					<li><a href="">热门</a></li>
+					<a style="color:#808080;" href="">...</a></li>
+					</ul>
+					<ul class="nt_mid2">
+						<ul>
+						<li><ul>
+						<li class="nt_lis1"><span style="color: gold;">8月6日体验服停机更新公告</a></li>
+						<li><span class="sp_gg">公告</span><a href="">8月6日全服不停机优化公告</a><em>08/06</em></li>
+						<li><span class="sp_gg">公告</span><a href="">8月6日IOS用户启动游戏异常说明</a><em>08/06</em></li>
+						<li><span class="sp_gg">公告</span><a href="">8月6日体验服违规处罚</a><em>08/06</em></li>
+						<li><span class="sp_gg">公告</span><a href="">8月5日净化游戏环境声明及处罚公告</a><em>08/05</em></li>
+						<li><span class="sp_gg">公告</span><a href="">8月5日“演员”惩罚名单</a><em>08/05</em></li>
+						<li><span class="sp_gg">公告</span><a href="">8月5日外挂专项打击公告</a><em>08/05</em></li>
+						<li><span class="sp_gg">公告</span><a href="">8月4日体验服停机更新公告</a><em>08/04</em></li>
+						</ul></li>
+						<li><ul>
+                        <li class="nt_lis1"><span style="color: gold;">三分之地，阵营对决赢手机</a></li>
+						<li><span class="sp_xw">新闻</span><a href="">曲韵繁花|经典永流传《数字化破记...</a><em>08/06</em></li>
+						<li><span class="sp_xw">新闻</span><a href="">王者破浪之战暑假狂欢</a><em>08/06</em></li>
+						<li><span class="sp_xw">新闻</span><a href="">2020年QQ名人赛《王者荣耀》第二季</a><em>08/06</em></li>
+						<li><span class="sp_xw">新闻</span><a href="">腾讯微视王者嘉年华来袭，6位姐姐...</a><em>08/05</em></li>
+						<li><span class="sp_xw">新闻</span><a href="">《天天爱消除》七周年庆欢乐开启</a><em>08/05</em></li>
+						<li><span class="sp_xw">新闻</span><a href="">大神来了！快来游戏社区与大神上分！</a><em>08/05</em></li>
+						<li><span class="sp_xw">新闻</span><a href="">策划有话说|王者全明星：让每个人都...</a><em>08/04</em></li>
+						</ul></li>
+						<li><ul>
+                        <li class="nt_lis1"><span style="color: gold;">百天挑战教你如何上白银</a></li>
+						<li><span class="sp_gg">赛事</span><a href="">8月6日全服不停机优化公告</a><em>08/06</em></li>
+						<li><span class="sp_gg">赛事</span><a href="">8月6日IOS用户启动游戏异常说明</a><em>08/06</em></li>
+						<li><span class="sp_gg">赛事</span><a href="">8月6日体验服违规处罚</a><em>08/06</em></li>
+						<li><span class="sp_gg">赛事</span><a href="">8月5日净化游戏环境声明及处罚公告</a><em>08/05</em></li>
+						<li><span class="sp_gg">赛事</span><a href="">8月5日“演员”惩罚名单</a><em>08/05</em></li>
+						<li><span class="sp_gg">赛事</span><a href="">8月5日外挂专项打击公告</a><em>08/05</em></li>
+						<li><span class="sp_gg">赛事</span><a href="">8月4日体验服停机更新公告</a><em>08/04</em></li>
+						</ul></li>
+						<li><ul>
+                        <li class="nt_lis1"><span style="color: gold;">8月6日体验服停机更新公告</a></li>
+						<li><span class="sp_xw">活动</span><a href="">8月6日全服不停机优化公告</a><em>08/06</em></li>
+						<li><span class="sp_xw">活动</span><a href="">8月6日IOS用户启动游戏异常说明</a><em>08/06</em></li>
+						<li><span class="sp_xw">活动</span><a href="">8月6日体验服违规处罚</a><em>08/06</em></li>
+						<li><span class="sp_xw">活动</span><a href="">8月5日净化游戏环境声明及处罚公告</a><em>08/05</em></li>
+						<li><span class="sp_xw">活动</span><a href="">8月5日“演员”惩罚名单</a><em>08/05</em></li>
+						<li><span class="sp_xw">活动</span><a href="">8月5日外挂专项打击公告</a><em>08/05</em></li>
+						<li><span class="sp_xw">活动</span><a href="">8月4日体验服停机更新公告</a><em>08/04</em></li>
+						</ul></li>
+						<li><ul>
+                        <li class="nt_lis1"><span style="color: gold;">全网恭贺陈胜权老板脱单</a></li>
+						<li><span class="sp_ss">热点</span><a href="">全网恭贺陈胜权老板脱单</a><em>08/06</em></li>
+						<li><span class="sp_ss">热点</span><a href="">全网恭贺陈胜权老板脱单</a><em>08/06</em></li>
+						<li><span class="sp_ss">热点</span><a href="">全网恭贺陈胜权老板脱单</a><em>08/06</em></li>
+						<li><span class="sp_ss">热点</span><a href="">全网恭贺陈胜权老板脱单</a><em>08/05</em></li>
+						<li><span class="sp_ss">热点</span><a href="">全网恭贺陈胜权老板脱单</a><em>08/05</em></li>
+						<li><span class="sp_ss">热点</span><a href="">全网恭贺陈胜权老板脱单</a><em>08/05</em></li>
+						<li><span class="sp_ss">热点</span><a href="">全网恭贺陈胜权老板脱单</a><em>08/04</em></li>
+						</ul></li>
+						</ul>
+					</ul>
+				</div>
+				<!-- 右边三个（下载）按钮 -->
+				<div class="nt_right1"><a href=""><img src="img/xiazai.png" ></a></div>
+				<div class="nt_right2"><a href=""><img src="img/xiazaitwo.png" ></a></div>
+				<div class="nt_right3"><a href=""><img src="img/xiazaione.png" ></a></div>
+		</div></div>
+		</nav>
+		<!-- 中间四个放大框 -->
+		<div class="zhongbu">
+			<ul>
+			<li><a href=""><img src="img/gfblz.jpg" ></a></li>
+			<li><a href=""><img src="img/wzyd.jpg" ></a></li>
+			<li><a href=""><img src="img/rycc.jpg" ></a></li>
+			<li style="margin-right: -3%;"><a href=""><img src="img/sszq.jpg" ></a></li>
+			</ul>
+		</div>
+		<!-- 内容中心 -->
+		<section>
+			<div class="sec_left">
+				<div class="s_head">
+					<h3><img src="img/pingtu.png" >内容中心</h3>
+					<a href="html/内容中心.html"><img src="img/jiahao.png" >更多</a>					
+				</div>
+				<div class="s_nav">
+					<a href="">精品栏目</a>
+					<a href="">赛事精品</a>
+					<a style="border-right: none;" href="">英雄攻略</a>
+				</div>
+				<div class="s_nav1">
+					<ul class="s_nav11">
+						<li style="color: white;background: gold;padding:0px 20px;"><a href="">最新</a></li>
+						<li><a href="">王者克制论</a></li>
+						<li><a href="">王者视角</a></li>
+						<li><a href="">策见打</a></li>
+						<li><a href="">峡谷460</a></li>
+						<li><a href="">百星王者带你飞</a></li>
+						<li><a href="">狄仁杰封神榜</a></li>
+						<li><a href="">棋高一招</a></li>
+					</ul >
+					<ul class="s_nav12">
+					<li style="color: white;background: gold;"><a href="">王者炸麦了</a></li>
+					<li><a href="">荣耀大话王</a></li>
+					<li><a href="">KPL云电台</a></li>
+					<li><a href="">超神快讯1+1</a></li>
+					<li><a href="">荣耀宅急送</a></li>
+					<li><a href="">王者好莱坞</a></li>
+					<li><a href="">绝对王者</a></li>	
+					</ul>
+					<ul class="s_nav13">
+					<li class="lis3"><a href="">选择英雄</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+					</ul>
+				</div>
+				<div class="qiehuan">
+					<div class="sec_one">
+						<ul >
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080517/de056f266b06e65f703f93c2e787acff.1596618173.4ada12a0c7421d4c08b05fac486d85bf.1280x720_386725.jpg" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【王者克制论】刷野最快又如何？李九教你全面克制新英雄阿古朵</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/394d5a3bdf8beca80adea69acb315e661596037447/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】绝命毒师横行峡谷？李九教你全面克制扁鹊</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/2dc6ec8a11fe987eea81d915db5fb20d1595430985/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】无惧双形态，李九教你全面克制李信</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020071516/de056f266b06e65f703f93c2e787acff.1594800569.7082dfe8fdb3f0edb8c2cf24faeb029f.1280x720_675698.jpg" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【王者克制论】不做混分背锅侠，李九教你辅王速成攻略</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020070819/de056f266b06e65f703f93c2e787acff.1594207413.9257b40d3b194e2e8624e5fc59630354.1280x720_871634.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者克制论】三分之地来袭，李九教你快速适应新赛季</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/c9c88b439fc7dbf1c2a871938705b9d61593611388/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】你真的会打野吗？李九教野王养成计划 娜可露露</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020062413/de056f266b06e65f703f93c2e787acff.1592978028.4c9c3e9198413627d01e375c2d6fae38.1280x720_610529.jpg" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">【王者克制论】野区女神，替月行道？李九教你完美克制露娜</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020061713/de056f266b06e65f703f93c2e787acff.1592370735.4ea83a04a1f25e0cdf6381cf8e3dcc40.1280x720_306345.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者克制论】天狼绘梦，飞天秒人？李九教你完美克制上官婉儿</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/08fa25ecdbece47a70e0238deaca4ba11596903001/0/" width="173px" height="110px"><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【狄仁杰封神榜】第十一期：卧底惊险揭露 八人演员局惊天大案瑶</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/8f5241e1728b9b740b93eaca27a879b8/0/?width=230&height=140" ><p><span><img src="img/replay.png" >263</span><em>2020-08-09</em></p><a href="">【峡谷460】11：峡谷上演无间道，一诺直呼内行</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/3d15e6a9b834cb1de9af0ef48b8c640d1596733424/0/" ><p><span><img src="img/replay.png" >9573</span><em>2020-08-09</em></p><a href="">【峡谷460】11：峡谷上演无间道，一诺直呼内行！高渐离</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020071516/de056f266b06e65f703f93c2e787acff.1594800569.7082dfe8fdb3f0edb8c2cf24faeb029f.1280x720_675698.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者克制论】不做混分背锅侠，李九教你辅王速成攻略</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020070819/de056f266b06e65f703f93c2e787acff.1594207413.9257b40d3b194e2e8624e5fc59630354.1280x720_871634.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】三分之地来袭，李九教你快速适应新赛季</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/fa1a19c75b16f77d0355c4095bf230f2/0/?width=230&height=140" ><p><span><img src="img/replay.png" >463</span><em>2020-08-09</em></p><a href="">【狄仁杰封神榜】10：游戏诈骗账号真相！这几种套路一定要避免</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020062413/de056f266b06e65f703f93c2e787acff.1592978028.4c9c3e9198413627d01e375c2d6fae38.1280x720_610529.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】野区女神，替月行道？李九教你完美克制露娜</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/5d95304475fb6fdd0a2df1ed1513ec67/0/?width=230&height=140" ><p><span><img src="img/replay.png" >23355</span><em>2020-08-09</em></p><a href="">【狄仁杰封神榜】09:史上最全举报正确打开方式</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080718/6b367900eda3810b8997b6a025cc95df.1596794765.3a4501e108a3400d2726c95ff9ffea20.230x140_9810.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十九期：直视我，对手！细数1v1的必胜套路</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080100/6b367900eda3810b8997b6a025cc95df.1596211767.52909da9c28b8f39f53e3fc112e96046.230x140_8661.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十八期：野区买房，阿古朵的千层套路</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020072416/6b367900eda3810b8997b6a025cc95df.1595578486.e3bff0b6575ca88d31d13deb041254df.230x140_10038.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十七期：金牌射手攻略，今天对线我必单杀！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020071713/6b367900eda3810b8997b6a025cc95df.1594965201.d18a8ac334c52dd734d1287fa9aa01a7.230x140_8745.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十六期：细看英雄榜，版本霸主是否易位？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020062719/f9cc3a78b7bc978a5aa341dba539a63b.1593257679.58a7efecc9697d91a471d68fa5753be8.230x140_17860.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者小知识课堂】王者荣耀中出人意料的小细节！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020052216/7e39f90815d0cbca3fcb1178fb9fa803.1590137580.fe7279fa07518c4df57b4cdd1e3d140c.230x140_62376.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【策见打】孙尚香：你知道我这5年是怎么过的吗？！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/c9c88b439fc7dbf1c2a871938705b9d61593611388/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】你真的会打野吗？李九教野王养成计划 娜可露露</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020051714/5767b31e43bad9a4a9effadbc1c44fd1.1589696143.d39727094c3bef6067462f38918addf1.230x140_63598.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【策见打】刘备：居然还有人这样打天哪不可能啊！</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+                        <ul >
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080517/de056f266b06e65f703f93c2e787acff.1596618173.4ada12a0c7421d4c08b05fac486d85bf.1280x720_386725.jpg" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【王者克制论】刷野最快又如何？李九教你全面克制新英雄阿古朵</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/394d5a3bdf8beca80adea69acb315e661596037447/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】绝命毒师横行峡谷？李九教你全面克制扁鹊</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/2dc6ec8a11fe987eea81d915db5fb20d1595430985/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】无惧双形态，李九教你全面克制李信</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020071516/de056f266b06e65f703f93c2e787acff.1594800569.7082dfe8fdb3f0edb8c2cf24faeb029f.1280x720_675698.jpg" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【王者克制论】不做混分背锅侠，李九教你辅王速成攻略</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020070819/de056f266b06e65f703f93c2e787acff.1594207413.9257b40d3b194e2e8624e5fc59630354.1280x720_871634.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者克制论】三分之地来袭，李九教你快速适应新赛季</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/c9c88b439fc7dbf1c2a871938705b9d61593611388/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】你真的会打野吗？李九教野王养成计划 娜可露露</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020062413/de056f266b06e65f703f93c2e787acff.1592978028.4c9c3e9198413627d01e375c2d6fae38.1280x720_610529.jpg" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">【王者克制论】野区女神，替月行道？李九教你完美克制露娜</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020061713/de056f266b06e65f703f93c2e787acff.1592370735.4ea83a04a1f25e0cdf6381cf8e3dcc40.1280x720_306345.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者克制论】天狼绘梦，飞天秒人？李九教你完美克制上官婉儿</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/08fa25ecdbece47a70e0238deaca4ba11596903001/0/" width="173px" height="110px"><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【狄仁杰封神榜】第十一期：卧底惊险揭露 八人演员局惊天大案瑶</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/8f5241e1728b9b740b93eaca27a879b8/0/?width=230&height=140" ><p><span><img src="img/replay.png" >263</span><em>2020-08-09</em></p><a href="">【峡谷460】11：峡谷上演无间道，一诺直呼内行</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/3d15e6a9b834cb1de9af0ef48b8c640d1596733424/0/" ><p><span><img src="img/replay.png" >9573</span><em>2020-08-09</em></p><a href="">【峡谷460】11：峡谷上演无间道，一诺直呼内行！高渐离</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020071516/de056f266b06e65f703f93c2e787acff.1594800569.7082dfe8fdb3f0edb8c2cf24faeb029f.1280x720_675698.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者克制论】不做混分背锅侠，李九教你辅王速成攻略</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020070819/de056f266b06e65f703f93c2e787acff.1594207413.9257b40d3b194e2e8624e5fc59630354.1280x720_871634.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】三分之地来袭，李九教你快速适应新赛季</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/fa1a19c75b16f77d0355c4095bf230f2/0/?width=230&height=140" ><p><span><img src="img/replay.png" >463</span><em>2020-08-09</em></p><a href="">【狄仁杰封神榜】10：游戏诈骗账号真相！这几种套路一定要避免</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020062413/de056f266b06e65f703f93c2e787acff.1592978028.4c9c3e9198413627d01e375c2d6fae38.1280x720_610529.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】野区女神，替月行道？李九教你完美克制露娜</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/5d95304475fb6fdd0a2df1ed1513ec67/0/?width=230&height=140" ><p><span><img src="img/replay.png" >23355</span><em>2020-08-09</em></p><a href="">【狄仁杰封神榜】09:史上最全举报正确打开方式</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080718/6b367900eda3810b8997b6a025cc95df.1596794765.3a4501e108a3400d2726c95ff9ffea20.230x140_9810.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十九期：直视我，对手！细数1v1的必胜套路</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080100/6b367900eda3810b8997b6a025cc95df.1596211767.52909da9c28b8f39f53e3fc112e96046.230x140_8661.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十八期：野区买房，阿古朵的千层套路</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020072416/6b367900eda3810b8997b6a025cc95df.1595578486.e3bff0b6575ca88d31d13deb041254df.230x140_10038.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十七期：金牌射手攻略，今天对线我必单杀！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020071713/6b367900eda3810b8997b6a025cc95df.1594965201.d18a8ac334c52dd734d1287fa9aa01a7.230x140_8745.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十六期：细看英雄榜，版本霸主是否易位？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020062719/f9cc3a78b7bc978a5aa341dba539a63b.1593257679.58a7efecc9697d91a471d68fa5753be8.230x140_17860.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者每天小知识】王者荣耀中出人意料的小细节！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020052216/7e39f90815d0cbca3fcb1178fb9fa803.1590137580.fe7279fa07518c4df57b4cdd1e3d140c.230x140_62376.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】不做混分背锅侠，李九教你辅王速成攻略</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/c9c88b439fc7dbf1c2a871938705b9d61593611388/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】你真的会打野吗？李九教野王养成计划 娜可露露</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020061200/0cc21b298ec5ff5a1c37c2086e27b408.1591893430.23a53c1eea0cfa9dce608598d3711798.230x140_52534.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十七期：金牌射手攻略，今天对线我必单杀！</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080718/6b367900eda3810b8997b6a025cc95df.1596794765.3a4501e108a3400d2726c95ff9ffea20.230x140_9810.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十九期：直视我，对手！细数1v1的必胜套路</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080100/6b367900eda3810b8997b6a025cc95df.1596211767.52909da9c28b8f39f53e3fc112e96046.230x140_8661.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十八期：野区买房，阿古朵的千层套路</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020072416/6b367900eda3810b8997b6a025cc95df.1595578486.e3bff0b6575ca88d31d13deb041254df.230x140_10038.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十七期：金牌射手攻略，今天对线我必单杀！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020071713/6b367900eda3810b8997b6a025cc95df.1594965201.d18a8ac334c52dd734d1287fa9aa01a7.230x140_8745.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者视角】第三十六期：细看英雄榜，版本霸主是否易位？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020062719/f9cc3a78b7bc978a5aa341dba539a63b.1593257679.58a7efecc9697d91a471d68fa5753be8.230x140_17860.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【每天一个小技巧】王者荣耀中出人意料的小细节！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020052216/7e39f90815d0cbca3fcb1178fb9fa803.1590137580.fe7279fa07518c4df57b4cdd1e3d140c.230x140_62376.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【策见打】孙尚香：你知道我这5年是怎么过的吗？！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/c9c88b439fc7dbf1c2a871938705b9d61593611388/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】你真的会打野吗？李九教野王养成计划 娜可露露</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020051714/5767b31e43bad9a4a9effadbc1c44fd1.1589696143.d39727094c3bef6067462f38918addf1.230x140_63598.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【策见打】刘备：居然还有人这样打天哪不可能啊！</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul >
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080517/de056f266b06e65f703f93c2e787acff.1596618173.4ada12a0c7421d4c08b05fac486d85bf.1280x720_386725.jpg" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【王者克制论】刷野最快又如何？李九教你全面克制新英雄阿古朵</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/394d5a3bdf8beca80adea69acb315e661596037447/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】绝命毒师横行峡谷？李九教你全面克制扁鹊</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/2dc6ec8a11fe987eea81d915db5fb20d1595430985/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】无惧双形态，李九教你全面克制李信</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020071516/de056f266b06e65f703f93c2e787acff.1594800569.7082dfe8fdb3f0edb8c2cf24faeb029f.1280x720_675698.jpg" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【王者克制论】不做混分背锅侠，李九教你辅王速成攻略</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020070819/de056f266b06e65f703f93c2e787acff.1594207413.9257b40d3b194e2e8624e5fc59630354.1280x720_871634.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者克制论】三分之地来袭，李九教你快速适应新赛季</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/c9c88b439fc7dbf1c2a871938705b9d61593611388/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】你真的会打野吗？李九教野王养成计划 娜可露露</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020062413/de056f266b06e65f703f93c2e787acff.1592978028.4c9c3e9198413627d01e375c2d6fae38.1280x720_610529.jpg" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">【王者克制论】野区女神，替月行道？李九教你完美克制露娜</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020061713/de056f266b06e65f703f93c2e787acff.1592370735.4ea83a04a1f25e0cdf6381cf8e3dcc40.1280x720_306345.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者克制论】天狼绘梦，飞天秒人？李九教你完美克制上官婉儿</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul >
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080517/de056f266b06e65f703f93c2e787acff.1596618173.4ada12a0c7421d4c08b05fac486d85bf.1280x720_386725.jpg" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【王者克制论】刷野最快又如何？李九教你全面克制新英雄阿古朵</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/394d5a3bdf8beca80adea69acb315e661596037447/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】绝命毒师横行峡谷？李九教你全面克制扁鹊</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/2dc6ec8a11fe987eea81d915db5fb20d1595430985/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】无惧双形态，李九教你全面克制李信</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020071516/de056f266b06e65f703f93c2e787acff.1594800569.7082dfe8fdb3f0edb8c2cf24faeb029f.1280x720_675698.jpg" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【王者克制论】不做混分背锅侠，李九教你辅王速成攻略</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020070819/de056f266b06e65f703f93c2e787acff.1594207413.9257b40d3b194e2e8624e5fc59630354.1280x720_871634.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者克制论】三分之地来袭，李九教你快速适应新赛季</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//img.crawler.qq.com/lolwebvideo/0/c9c88b439fc7dbf1c2a871938705b9d61593611388/0/" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者克制论】你真的会打野吗？李九教野王养成计划 娜可露露</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020062413/de056f266b06e65f703f93c2e787acff.1592978028.4c9c3e9198413627d01e375c2d6fae38.1280x720_610529.jpg" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">【王者克制论】野区女神，替月行道？李九教你完美克制露娜</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020061713/de056f266b06e65f703f93c2e787acff.1592370735.4ea83a04a1f25e0cdf6381cf8e3dcc40.1280x720_306345.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者克制论】天狼绘梦，飞天秒人？李九教你完美克制上官婉儿</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul >
+							<li><img src="//shp.qpic.cn/cfwebcap/0/45305cb091e1bf6b32c3d2eab3ef7356/0/?width=230&height=140" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【王者炸麦了】世冠特别篇-2cat的成名之路</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/7acf648e21c4ca03dc4a17169c50e5bf/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （完结篇）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/41df8e2d0ef3d070e96dfbe4bd03aa8f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （中）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/affd5d5a787861f2a7022d45b7366457/0/?width=230&height=140" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （下）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/369be3ee5735e435d98bbd3a4d18405f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （上）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/2386acc761d480313c8fb0e4d7f7f4c2/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/929f73b8140623ac10bc43dad86b09ea/0/" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">【王者炸麦了】春季赛大结局 谁能获得冠军？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/00ff065559da2d5f12c9f77927c30fab/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul >
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020081019/bf2fd1d179d4a3791492e2a98274cbad.1597057927.f45c940314c593f5e9570edce717fd79.230x140_76409.jpg" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【加菲】世冠赛事聚焦：武汉eStar.Cat采访回应“挑对手”？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/634234341e2fd8fa0d48b5124c3bf8b1/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】TS毒奶再现赛场 DYG巅峰对决出其不意</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/e0d0144acb5227ab85e5f3a4118f05bf/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">DYG中单守约体系尝试剖析，原来开黑也能玩!</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020081010/7ecd0c0871dd8ec8b5500699af0ebaba.1597026742.e91995ec6552fa58c423989160cb0fb2.230x140_66311.png" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【小绿绿TOP3】清清芈月细节操作越塔击杀满血蒙恬！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080923/c8ca58d59bcddc3edd57e30d91a3dd23.1596986392.8c9279551872a85ebd3fc64ff129930c.230x140_59552.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">世冠守约高能击杀秀，久诚果然是峡谷最准的男人！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020081015/e4da3b7fbbce2345d7772b0674a318d5.1597044917.26178463ea38cae95619ff8fa975f454.230x140_56232.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">KPL-V字特工队世冠特辑：AG和TS宿命对决的比赛日直击</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080922/219cff852d83d9dfe9117cfc69f97bba.1596983412.df324a5a4c79284556e0fd6e2c4a1dc9.230x140_86069.png" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">DYG偷水晶赢得胜利各直播间评论，寒夜：你峥牛皮</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/071706dfd4928b43705b8826dda4253e/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【胡说康平路】世冠17：今天峥高兴！恭喜DYG打虎成功，决赛会师TS！</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul >
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020072215/3060de6e1162d909982db8958af5431f.1595403609.c546426f99aaa3b5a2f5c0d2817d0cac.230x140_76266.jpg" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【荣耀宅急送】23：世冠赛场选手第一视角，你学会了吗？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020071519/12522320eebcc3a99bcd3a9c6289af0b.1594811686.1ea3f5ab7774ff64fca64145241d6df1.230x140_78916.png" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">《逐梦荣耀》第一期：2020王者荣耀世冠KPLGT各队伍现状</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020070313/e7cdf5869aff0ae3e966204150198383.1593755856.367d405e5c55e4d94a5979b510ad5989.230x140_77559.png" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">12支豪门争夺3200万奖金，王者荣耀世冠今日开战</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020070215/77eaa16c2252ebcfb6efcff0b75e6387.1593675199.b9fd09a3305f4dbcdec6a099bbfda951.230x140_84429.PNG" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【小绿绿TOP3】清清芈月细节操作越塔击杀满血蒙恬！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020062317/7105cb2fe9520aea8f8129310bb22588.1592904932.fed38e10cd439ceef9eb7312d0310b80.230x140_80168.PNG" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【加菲】居里组合精彩相声解说，是真的很机车诶！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020081015/e4da3b7fbbce2345d7772b0674a318d5.1597044917.26178463ea38cae95619ff8fa975f454.230x140_56232.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">《逐梦荣耀》第四期：ROX独家采访 干就完事死亡A组信心满满</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020062315/7105cb2fe9520aea8f8129310bb22588.1592898108.2b82acb79f86f6af7faac07bad1b4a61.184x124_55829.PNG" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">《逐梦荣耀》第三期：是VSG星火燎原 还是ROX凤凰浴火涅槃</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020062021/77ed36f4b18679ce54d4cebda306117e.1592659006.a03190a2507225f7ae64a32afe22e186.230x140_47405.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【加菲】世冠强强对决即将拉开帷幕</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul >
+							<li><img src="//shp.qpic.cn/cfwebcap/0/45305cb091e1bf6b32c3d2eab3ef7356/0/?width=230&height=140" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【王者炸麦了】世冠特别篇-2cat的成名之路</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/7acf648e21c4ca03dc4a17169c50e5bf/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （完结篇）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/41df8e2d0ef3d070e96dfbe4bd03aa8f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （中）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/affd5d5a787861f2a7022d45b7366457/0/?width=230&height=140" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （下）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/369be3ee5735e435d98bbd3a4d18405f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （上）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/2386acc761d480313c8fb0e4d7f7f4c2/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/929f73b8140623ac10bc43dad86b09ea/0/" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">【王者炸麦了】春季赛大结局 谁能获得冠军？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/00ff065559da2d5f12c9f77927c30fab/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul >
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020081019/bf2fd1d179d4a3791492e2a98274cbad.1597057927.f45c940314c593f5e9570edce717fd79.230x140_76409.jpg" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【加菲】世冠赛事聚焦：武汉eStar.Cat采访回应“挑对手”？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/634234341e2fd8fa0d48b5124c3bf8b1/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】TS毒奶再现赛场 DYG巅峰对决出其不意</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/e0d0144acb5227ab85e5f3a4118f05bf/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">DYG中单守约体系尝试剖析，原来开黑也能玩!</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020081010/7ecd0c0871dd8ec8b5500699af0ebaba.1597026742.e91995ec6552fa58c423989160cb0fb2.230x140_66311.png" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【小绿绿TOP3】清清芈月细节操作越塔击杀满血蒙恬！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080923/c8ca58d59bcddc3edd57e30d91a3dd23.1596986392.8c9279551872a85ebd3fc64ff129930c.230x140_59552.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">世冠守约高能击杀秀，久诚果然是峡谷最准的男人！</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="https://itea-cdn.qq.com/file/tgl/2020081015/e4da3b7fbbce2345d7772b0674a318d5.1597044917.26178463ea38cae95619ff8fa975f454.230x140_56232.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">KPL-V字特工队世冠特辑：AG和TS宿命对决的比赛日直击</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//itea-cdn.qq.com/file/tgl/2020080922/219cff852d83d9dfe9117cfc69f97bba.1596983412.df324a5a4c79284556e0fd6e2c4a1dc9.230x140_86069.png" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">DYG偷水晶赢得胜利各直播间评论，寒夜：你峥牛皮</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/071706dfd4928b43705b8826dda4253e/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【胡说康平路】世冠17：今天峥高兴！恭喜DYG打虎成功，决赛会师TS！</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						<ul >
+							<li><img src="//shp.qpic.cn/cfwebcap/0/45305cb091e1bf6b32c3d2eab3ef7356/0/?width=230&height=140" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【王者炸麦了】世冠特别篇-2cat的成名之路</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/7acf648e21c4ca03dc4a17169c50e5bf/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （完结篇）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/41df8e2d0ef3d070e96dfbe4bd03aa8f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （中）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/affd5d5a787861f2a7022d45b7366457/0/?width=230&height=140" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （下）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/369be3ee5735e435d98bbd3a4d18405f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （上）</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/2386acc761d480313c8fb0e4d7f7f4c2/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/929f73b8140623ac10bc43dad86b09ea/0/" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">【王者炸麦了】春季赛大结局 谁能获得冠军？</a><div class="bigreplay"><span ></span></div></li>
+							<li><img src="//shp.qpic.cn/cfwebcap/0/00ff065559da2d5f12c9f77927c30fab/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+						</ul>
+						</div>					
+				</div>
+				<!-- 英雄隐藏框 -->
+				<div class="herolist">
+					<ul><li>热门</li><li>战士</li><li>辅助</li><li>射手</li><li>法师</li><li>坦克</li><li>刺客</li></ul>
+					<div>
+					<div style="display: block;">
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/112/112.jpg" alt="">鲁班</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/167/167.jpg" alt="">孙悟空</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/109/109.jpg" alt="">妲己</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/150/150.jpg" alt="">韩信</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+					</div>
+					<div>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/109/109.jpg" alt="">妲己</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/150/150.jpg" alt="">韩信</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/112/112.jpg" alt="">鲁班</a>
+					</div>
+					<div>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/150/150.jpg" alt="">韩信</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/109/109.jpg" alt="">妲己</a>
+					</div>
+					<div>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/109/109.jpg" alt="">妲己</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/109/109.jpg" alt="">妲己</a>
+					</div>
+					<div>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/112/112.jpg" alt="">鲁班</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/167/167.jpg" alt="">孙悟空</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+					</div>
+					<div>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/109/109.jpg" alt="">妲己</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/150/150.jpg" alt="">韩信</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/112/112.jpg" alt="">鲁班</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+					</div>
+					<div>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/150/150.jpg" alt="">韩信</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/109/109.jpg" alt="">妲己</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/166/166.jpg" alt="">亚瑟</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169.jpg" alt="">后异</a>
+						<a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/193/193.jpg" alt="">凯</a>
+					</div>
+					</div>
+				</div>
+			</div>
+			<!-- 英雄/皮肤部分 -->
+			<div class="sec_right">
+				<div class="s_top">
+					<img src="img/hero.png" ><h3>英雄/皮肤</h3>
+					<a href=""><img src="img/jiahao.png" >更多</a>		
+				</div>
+				<div class="s_mid2">
+					<a  href="">最新英雄</a>
+					<a  href="">最新皮肤</a>
+					<a style="border-right: none;margin-top:-1px;" href="">周免英雄</a>
+				</div>
+				<div class="s_Foot">
+					<div>
+				    <div class="s_foot">
+					    <a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/horizontal/533.jpg" alt=""></a>
+					<div class="s_footmid">
+						<h3>新英雄：阿古朵</h3>
+						<p>上线时间：2020.08.06</p>
+					</div >
+			
+				    <div class="s_footmid2"><ul>
+					    <li><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/527.jpg" ><span>蒙恬</span></a></li>
+					    <li><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/531.jpg" ><span>镜</span></a></li>
+					    <li><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/524.jpg" ><span>蒙犽</span></a></li>
+					    <li style="margin-right: -11px;"><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/525.jpg"><span>鲁班大师</span></a></li>
+					</ul></div>
+				    </div>
+                    <div class="s_foot">
+					    <a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/horizontal/522_skin.jpg" alt=""></a>
+					<div class="s_footmid">
+						<h3>新皮肤：云鹰飞将-曜</h3>
+						<p>上线时间：2020.08.07</p>
+					</div >
+				    <div class="s_footmid2"><ul>
+					    <li><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/171_skin.jpg" ><span>虎魄-张飞</span></a></li>
+					    <li><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/507_skin.jpg" ><span>一念神魔-李信</span></a></li>
+					    <li><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/132_skin.jpg" ><span>暗隐游猎-马可波罗</span></a></li>
+					    <li style="margin-right: -11px;"><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/511_skin.jpg"><span>西部大镖客-猪八戒</span></a></li>
+					</ul></div>					  
+				    </div>
+					
+					<div class="s_foot">
+					<div class="s_footmid2"><ul>
+					    <li style="margin-bottom: 10px;height: 170px;"><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/152.jpg" ><span>王昭君</span></a></li>
+						<li style="margin-bottom: 10px;height: 170px;"><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/312.jpg" ><span>沈梦溪</span></a></li>
+						<li style="margin-bottom: 10px;height: 170px;"><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/129.jpg" ><span>典韦</span></a></li>
+						<li style="margin-right: -11px;margin-bottom: 10px;height: 170px;"><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/508.jpg" ><span>伽罗</span></a></li>
+						<li style="height: 170px;"><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/505.jpg" ><span>瑶</span></a></li>
+			      	    <li style="height: 170px;"><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/195.jpg" ><span>百里守约</span></a></li>
+					    <li style="height: 170px;"><a href=""><img src="//game.gtimg.cn/images/yxzj/img201606/freehero/vertical/187.jpg" ><span>东皇太一</span></a></li>
+					    <li style="margin-right: -11px;height: 170px;"><a href=""><img src="//game.gtimg.cn/images/yxzj/web201605/new/more_hero.jpg" ></a></li>	 						
+						<p><span><img src="img/timer.png" ></span>限免时间：2020-8-10至2020-8-17</p>						   
+						</ul>
+                    </div> 
+					</div>
+			    </div>
+		</section>
+		<!-- 赛事中心部分 -->
+		<footer>
+			<div class="foot_left">
+				<div class="foot_head">
+					<h3><img src="img/cargame.png" >赛事中心</h3>
+					<a href="html/赛事中心.html"><img src="img/jiahao.png" >更多</a>					
+				</div>
+				<div class="foot_nav">
+					<a href="">KPL</a>
+					<a href="">冠军杯</a>
+					<a  href="">KPLGT</a>
+					<a href="">城市赛</a>
+					<a href="">高校联赛</a>
+					<a  href="">TGA</a>
+					<a href="">微信游戏邀请赛</a>
+					<a style="border-right:none" href="">模拟战大师赛</a>
+				</div>
+				<ul class="foot_lunbo">
+	           	    <li style="display: block;">
+						<ul class="f_lunbo1">
+							<img src="https://ossweb-img.qq.com/upload/webplat/info/yxzj/20200317/716931509513732.jpg" alt="">
+							<li style="	width: 455px;height: 66px;" class="f_lunbo11">
+							<a  style="width: 577px;height:32px;font-size: 24px;color: #333;" href="">KPL携手京东零售，不负热爱，一起上场！</a>
+							<a  style="line-height: 23px;font-size: 14px;color: #666666;width: 450px;height: 23px;" href="">京东零售正式成为KPL官方电商合作伙伴</a>
+							</li>
+							<li><span>KPL</span><a href="">中国国际电视台、央视海外CGTN强势报道KPL春季赛总决赛</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-20</em></li>
+							<li><span>KPL</span><a href="">无惧挑战向阳而生，TS冠军之夜今日18:00惊喜来袭</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-19</em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;"></li>
+							<li><span>KPL</span><a href="">铠皇进场 无人能挡！T-Cross途铠为KPL春季赛冠军赠送电竞开黑专车使用</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-18</em></li>
+							<li><span>KPL</span><a href="">全球好物推荐官降临王者峡谷：薇娅viya成为KPL手速女王</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-18</em></li>
+							<li><span>KPL</span><a href="">2020年KPL春季赛总决赛赛场高光全回顾，哪一幕令你震撼？</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-17</em></li>
+							<li><span>KPL</span><a href="">KPL总决赛现场返图，见证王者决战银龙！</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-17</em></li>
+						</ul>
+						<div class="f_lunbo2">
+							<div class="qiehuan" >
+								<div class="sec_one" >
+									<ul >
+										<li><img src="//shp.qpic.cn/cfwebcap/0/45305cb091e1bf6b32c3d2eab3ef7356/0/?width=230&height=140" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【王者炸麦了】世冠特别篇-2cat的成名之路</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/7acf648e21c4ca03dc4a17169c50e5bf/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （完结篇）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/41df8e2d0ef3d070e96dfbe4bd03aa8f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （中）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/affd5d5a787861f2a7022d45b7366457/0/?width=230&height=140" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （下）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/369be3ee5735e435d98bbd3a4d18405f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （上）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/2386acc761d480313c8fb0e4d7f7f4c2/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/929f73b8140623ac10bc43dad86b09ea/0/" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">【王者炸麦了】春季赛大结局 谁能获得冠军？</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/00ff065559da2d5f12c9f77927c30fab/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<ul class="f_lunbo1">
+							<img src="//ossweb-img.qq.com/upload/webplat/info/yxzj/20200623/45618238764246.jpg" alt="">
+							<li style="	width: 455px;height: 66px;" class="f_lunbo11">
+							<a  style="width: 577px;height:32px;font-size: 24px;color: #333;" href="">你是赛评师：DYG拒绝巅峰对决轻取MTG，创造历史的DYG赢在哪里？</a>
+							<a  style="line-height: 23px;font-size: 14px;color: #666666;width: 450px;height: 23px;" href="">此次DYG拒绝巅峰对决轻取MTG，你觉得创造历史的DYG赢在哪里？欢迎各位召唤师们畅所欲言，说出心中所想，你就是赛评师！</a>
+							</li>
+							<li><span>冠军杯</span><a href="">【简讯】DYG晋级2020年王者荣耀世冠总决赛，MTG遗憾止步</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-29</em></li>
+							<li><span>冠军杯</span><a href="">世冠快讯：DYG力擒猛虎进军总决赛，清清曹操单带无敌通关一路</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-28</em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;"></li>
+							<li><span>冠军杯</span><a href="">你是赛评师：春决再现TS再胜成都AG，TS为什么总能巅峰对决力克成都AG？</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-02</em></li>
+							<li><span>冠军杯</span><a href="">【简讯】TS晋级2020年王者荣耀世冠总决赛，成都AG遗憾止步</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-01</em></li>
+							<li><span>冠军杯</span><a href="">世冠快讯：TS鏖战七局击败成都AG进军决赛，阿豆鲁班大师化身开团机器</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-01</em></li>
+							<li><span>冠军杯</span><a href="">【世冠今日预报】成都AG vs TS，春决再现谁能闯入总决赛？</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-01</em></li>
+						</ul>
+						<div class="f_lunbo2">
+							<div class="qiehuan">
+								<div class="sec_one">
+									<ul >
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020081019/bf2fd1d179d4a3791492e2a98274cbad.1597057927.f45c940314c593f5e9570edce717fd79.230x140_76409.jpg" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【加菲】世冠赛事聚焦：武汉eStar.Cat采访回应“挑对手”？</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/634234341e2fd8fa0d48b5124c3bf8b1/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】TS毒奶再现赛场 DYG巅峰对决出其不意</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/e0d0144acb5227ab85e5f3a4118f05bf/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">DYG中单守约体系尝试剖析，原来开黑也能玩!</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020081010/7ecd0c0871dd8ec8b5500699af0ebaba.1597026742.e91995ec6552fa58c423989160cb0fb2.230x140_66311.png" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【小绿绿TOP3】清清芈月细节操作越塔击杀满血蒙恬！</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020080923/c8ca58d59bcddc3edd57e30d91a3dd23.1596986392.8c9279551872a85ebd3fc64ff129930c.230x140_59552.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">世冠守约高能击杀秀，久诚果然是峡谷最准的男人！</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020081015/e4da3b7fbbce2345d7772b0674a318d5.1597044917.26178463ea38cae95619ff8fa975f454.230x140_56232.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">KPL-V字特工队世冠特辑：AG和TS宿命对决的比赛日直击</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020080922/219cff852d83d9dfe9117cfc69f97bba.1596983412.df324a5a4c79284556e0fd6e2c4a1dc9.230x140_86069.png" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">DYG偷水晶赢得胜利各直播间评论，寒夜：你峥牛皮</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/071706dfd4928b43705b8826dda4253e/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【胡说康平路】世冠17：今天峥高兴！恭喜DYG打虎成功，决赛会师TS！</a><div class="bigreplay"><span ></span></div></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<ul class="f_lunbo1">
+							<img src="//ossweb-img.qq.com/upload/webplat/info/yxzj/20200311/299151559381525.jpg" alt="">
+							<li style="	width: 455px;height: 66px;" class="f_lunbo11">
+							<a  style="width: 577px;height:32px;font-size: 24px;color: #333;" href="">海外战队打入世冠四强，该哭还是笑？</a>
+							<a  style="line-height: 23px;font-size: 14px;color: #666666;width: 450px;height: 23px;" href="">海外战队打入世冠四强，该哭还是笑？</a>
+							</li>
+							<li><span>KPLGT</span><a href="">12支“百炼”劲旅“志问鼎”，王者荣耀世冠今日开战</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-29</em></li>
+							<li><span>KPLGT</span><a href="">世冠杯KPLGT赛区巡礼：四队携手出征，KPL战队需小心提防</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">04-05</em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;"></li>
+							<li><span>KPLGT</span><a href="">KPL：去年周瑜今年干扰，是GT带火还是大势所趋</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-12</em></li>
+							<li><span>KPLGT</span><a href="">总决赛让三追四！GOG成功逆袭MTG终结宿命之战成功夺冠！</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-11</em></li>
+							<li><span>KPLGT</span><a href="">首个总决赛让三追四，GOG击败MTG卫冕总冠军，久龙尽力了</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-11</em></li>
+							<li><span>KPLGT</span><a href="">KPLGT快讯：GOG让三追四MTG强势夺冠！野王Nofear喜提总决赛FMVP</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-09</em></li>
+						</ul>
+						<div class="f_lunbo2">
+							<div class="qiehuan">
+								<div class="sec_one">
+									<ul >
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020072215/3060de6e1162d909982db8958af5431f.1595403609.c546426f99aaa3b5a2f5c0d2817d0cac.230x140_76266.jpg" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【荣耀宅急送】23：世冠赛场选手第一视角，你学会了吗？</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020071519/12522320eebcc3a99bcd3a9c6289af0b.1594811686.1ea3f5ab7774ff64fca64145241d6df1.230x140_78916.png" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">《逐梦荣耀》第一期：2020王者荣耀世冠KPLGT各队伍现状</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020070313/e7cdf5869aff0ae3e966204150198383.1593755856.367d405e5c55e4d94a5979b510ad5989.230x140_77559.png" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">12支豪门争夺3200万奖金，王者荣耀世冠今日开战</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020070215/77eaa16c2252ebcfb6efcff0b75e6387.1593675199.b9fd09a3305f4dbcdec6a099bbfda951.230x140_84429.PNG" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【小绿绿TOP3】清清芈月细节操作越塔击杀满血蒙恬！</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020062317/7105cb2fe9520aea8f8129310bb22588.1592904932.fed38e10cd439ceef9eb7312d0310b80.230x140_80168.PNG" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【加菲】居里组合精彩相声解说，是真的很机车诶！</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020081015/e4da3b7fbbce2345d7772b0674a318d5.1597044917.26178463ea38cae95619ff8fa975f454.230x140_56232.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">《逐梦荣耀》第四期：ROX独家采访 干就完事死亡A组信心满满</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020062315/7105cb2fe9520aea8f8129310bb22588.1592898108.2b82acb79f86f6af7faac07bad1b4a61.184x124_55829.PNG" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">《逐梦荣耀》第三期：是VSG星火燎原 还是ROX凤凰浴火涅槃</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020062021/77ed36f4b18679ce54d4cebda306117e.1592659006.a03190a2507225f7ae64a32afe22e186.230x140_47405.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【加菲】世冠强强对决即将拉开帷幕</a><div class="bigreplay"><span ></span></div></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li >
+						<ul class="f_lunbo1">
+							<img src="//ossweb-img.qq.com/upload/webplat/info/yxzj/20200324/97728114639480.jpg" alt="">
+							<li style="	width: 455px;height: 66px;" class="f_lunbo11">
+							<a  style="width: 577px;height:32px;font-size: 24px;color: #333;" href="">王者荣耀全国大赛，我们的故事，从平凡到非凡！</a>
+							<a  style="line-height: 23px;font-size: 14px;color: #666666;width: 450px;height: 23px;" href="">王者荣耀全国大赛，我们的故事，从平凡到非凡！</a>
+							</li>
+							<li><span>KPL</span><a href="">一招即浪第17期:幻影分身哪家强 王者峡谷来找镜</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-20</em></li>
+							<li><span>KPL</span><a href="">让观众更好读懂比赛,王者荣耀全国大赛幕后赛事转播揭秘</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-19</em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;"></li>
+							<li><span>KPL</span><a href="">王者荣耀全国大赛冠军斗鱼祈：以进军职业赛为最终目标！</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-18</em></li>
+							<li><span>KPL</span><a href="">全球好物推荐官降临王者峡谷：薇娅viya成为KPL手速女王</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-18</em></li>
+							<li><span>KPL</span><a href="">胶州湾的星光 | 幸会，带来成长的舞台</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-17</em></li>
+							<li><span>KPL</span><a href="">一招即浪第16期：如何做称职大哥，阅读蒙恬使用手册</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-17</em></li>
+						</ul>
+						<div class="f_lunbo2">
+							<div class="qiehuan" >
+								<div class="sec_one" >
+									<ul >
+										<li><img src="//shp.qpic.cn/cfwebcap/0/45305cb091e1bf6b32c3d2eab3ef7356/0/?width=230&height=140" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【王者炸麦了】世冠特别篇-2cat的成名之路</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/7acf648e21c4ca03dc4a17169c50e5bf/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （完结篇）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/41df8e2d0ef3d070e96dfbe4bd03aa8f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （中）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/affd5d5a787861f2a7022d45b7366457/0/?width=230&height=140" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （下）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/369be3ee5735e435d98bbd3a4d18405f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （上）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/2386acc761d480313c8fb0e4d7f7f4c2/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/929f73b8140623ac10bc43dad86b09ea/0/" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">【王者炸麦了】春季赛大结局 谁能获得冠军？</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/00ff065559da2d5f12c9f77927c30fab/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<ul class="f_lunbo1">
+							<img src="//ossweb-img.qq.com/upload/webplat/info/yxzj/20191017/7103135923848.jpg" alt="">
+							<li style="	width: 455px;height: 66px;" class="f_lunbo11">
+							<a  style="width: 577px;height:32px;font-size: 24px;color: #333;" href="">王者荣耀全国大赛，我们的故事，从平凡到非凡！</a>
+							<a  style="line-height: 23px;font-size: 14px;color: #666666;width: 450px;height: 23px;" href="">王者荣耀全国大赛，我们的故事，从平凡到非凡！</a>
+							</li>
+							<li><span>高校联</span><a href="">【简讯】DYG晋级2020年王者荣耀世冠总决赛，MTG遗憾止步</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-29</em></li>
+							<li><span>高校联</span><a href="">胶州湾的星光 | 幸会，带来成长的舞台</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-28</em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;"></li>
+							<li><span>高校联</span><a href="">你是赛评师：春决再现TS再胜成都AG，TS为什么总能巅峰对决力克成都AG？</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-02</em></li>
+							<li><span>高校联</span><a href="">一招即浪第17期:幻影分身哪家强 王者峡谷来找镜</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-01</em></li>
+							<li><span>高校联</span><a href="">世冠快讯：TS鏖战七局击败成都AG进军决赛，阿豆鲁班大师化身开团机器</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-01</em></li>
+							<li><span>高校联</span><a href="">王者荣耀全国大赛冠军斗鱼祈：以进军职业赛为最终目标！</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-01</em></li>
+						</ul>
+						<div class="f_lunbo2">
+							<div class="qiehuan">
+								<div class="sec_one">
+									<ul >
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020081019/bf2fd1d179d4a3791492e2a98274cbad.1597057927.f45c940314c593f5e9570edce717fd79.230x140_76409.jpg" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【加菲】世冠赛事聚焦：武汉eStar.Cat采访回应“挑对手”？</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/634234341e2fd8fa0d48b5124c3bf8b1/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】TS毒奶再现赛场 DYG巅峰对决出其不意</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/e0d0144acb5227ab85e5f3a4118f05bf/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">DYG中单守约体系尝试剖析，原来开黑也能玩!</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020081010/7ecd0c0871dd8ec8b5500699af0ebaba.1597026742.e91995ec6552fa58c423989160cb0fb2.230x140_66311.png" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【小绿绿TOP3】清清芈月细节操作越塔击杀满血蒙恬！</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020080923/c8ca58d59bcddc3edd57e30d91a3dd23.1596986392.8c9279551872a85ebd3fc64ff129930c.230x140_59552.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">世冠守约高能击杀秀，久诚果然是峡谷最准的男人！</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020081015/e4da3b7fbbce2345d7772b0674a318d5.1597044917.26178463ea38cae95619ff8fa975f454.230x140_56232.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">KPL-V字特工队世冠特辑：AG和TS宿命对决的比赛日直击</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020080922/219cff852d83d9dfe9117cfc69f97bba.1596983412.df324a5a4c79284556e0fd6e2c4a1dc9.230x140_86069.png" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">DYG偷水晶赢得胜利各直播间评论，寒夜：你峥牛皮</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/071706dfd4928b43705b8826dda4253e/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【胡说康平路】世冠17：今天峥高兴！恭喜DYG打虎成功，决赛会师TS！</a><div class="bigreplay"><span ></span></div></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<ul class="f_lunbo1">
+							<img src="//ossweb-img.qq.com/upload/webplat/info/yxzj/20191119/76255391666445.jpg" alt="">
+							<li style="	width: 455px;height: 66px;" class="f_lunbo11">
+							<a  style="width: 577px;height:32px;font-size: 24px;color: #333;" href="">【战报】王者荣耀4月第三周：杨玉环锋芒毕露 HEC碾压取胜！</a>
+							<a  style="line-height: 23px;font-size: 14px;color: #666666;width: 450px;height: 23px;" href="">【战报】王者荣耀4月第三周：杨玉环锋芒毕露 HEC碾压取胜</a>
+							</li>
+							<li><span>TGA</span><a href="">【战报】王者荣耀4月第二周C组：公孙离岑中归月 DC战队顺利登顶</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-29</em></li>
+							<li><span>TGA</span><a href="">王者荣耀4月第三周：杨玉环锋芒毕露 HEC碾压取胜</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-28</em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;"></li>
+							<li><span>TGA</span><a href="">【战报】TGA王者荣耀3月月赛：关羽无人可挡 TS碾压夺冠</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-02</em></li>
+							<li><span>TGA</span><a href="">【战报】王者荣耀4月第一周：团灭翻盘 King锁定周冠军</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-01</em></li>
+							<li><span>TGA</span><a href="">【战报】王者荣耀4月第二周B组：强拆水晶 GQL获胜夺魁</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-01</em></li>
+							<li><span>TGA</span><a href="">王者荣耀4月第二周B组：强拆水晶 GQL脱颖而出</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-01</em></li>
+						</ul>
+						<div class="f_lunbo2">
+							<div class="qiehuan">
+								<div class="sec_one">
+									<ul >
+										<li><img src="//shp.qpic.cn/cfwebcap/0/41df8e2d0ef3d070e96dfbe4bd03aa8f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （中）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/affd5d5a787861f2a7022d45b7366457/0/?width=230&height=140" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （下）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/369be3ee5735e435d98bbd3a4d18405f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （上）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020081010/7ecd0c0871dd8ec8b5500699af0ebaba.1597026742.e91995ec6552fa58c423989160cb0fb2.230x140_66311.png" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【小绿绿TOP3】清清芈月细节操作越塔击杀满血蒙恬！</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020080922/219cff852d83d9dfe9117cfc69f97bba.1596983412.df324a5a4c79284556e0fd6e2c4a1dc9.230x140_86069.png" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">DYG偷水晶赢得胜利各直播间评论，寒夜：你峥牛皮</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/071706dfd4928b43705b8826dda4253e/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【胡说康平路】世冠17：今天峥高兴！恭喜DYG打虎成功，决赛会师TS！</a><div class="bigreplay"><span ></span></div></li>
+									    <li><img src="https://itea-cdn.qq.com/file/tgl/2020062317/7105cb2fe9520aea8f8129310bb22588.1592904932.fed38e10cd439ceef9eb7312d0310b80.230x140_80168.PNG" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【加菲】居里组合精彩相声解说，是真的很机车诶！</a><div class="bigreplay"><span ></span></div></li>
+									    <li><img src="https://itea-cdn.qq.com/file/tgl/2020081015/e4da3b7fbbce2345d7772b0674a318d5.1597044917.26178463ea38cae95619ff8fa975f454.230x140_56232.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">《逐梦荣耀》第四期：ROX独家采访 干就完事死亡A组信心满满</a><div class="bigreplay"><span ></span></div></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+                    <li>
+						<ul class="f_lunbo1">
+							<img src="//ossweb-img.qq.com/upload/webplat/info/yxzj/20180926/597531354623599.jpg" alt="">
+							<li style="	width: 455px;height: 66px;" class="f_lunbo11">
+							<a  style="width: 577px;height:32px;font-size: 24px;color: #333;" href="">坤音四子ONER率队决战峡谷，杨迪爆笑解说聚星之夜</a>
+							<a  style="line-height: 23px;font-size: 14px;color: #666666;width: 450px;height: 23px;" href="">斗鱼直播、虎牙直播、触手直播、企鹅电竞四大平台的《王者荣耀》超级主播携手亚运会冠军队伍和KRKPL冠军队伍KZ战队相聚于此，跨界组队超人气偶像明星坤音四子ONER和综艺大咖杨迪，混搭热血竞技与搞笑综艺，佐以逆天的颜值，这几个小时的直播完全不！够！看！啊！</a>
+							</li>
+							<li><span>微信联赛</span><a href="">12支“百炼”劲旅“志问鼎”，王者荣耀世冠今日开战</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-29</em></li>
+							<li><span>微信联赛</span><a href="">世冠杯KPLGT赛区巡礼：四队携手出征，KPL战队需小心提防</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">04-05</em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;"></li>
+							<li><span>微信联赛</span><a href="">KPL：去年周瑜今年干扰，是GT带火还是大势所趋</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-12</em></li>
+							<li><span>微信联赛</span><a href="">总决赛让三追四！GOG成功逆袭MTG终结宿命之战成功夺冠！</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-11</em></li>
+							<li><span>微信联赛</span><a href="">首个总决赛让三追四，GOG击败MTG卫冕总冠军，久龙尽力了</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-11</em></li>
+							<li><span>微信联赛</span><a href="">KPLGT快讯：GOG让三追四MTG强势夺冠！野王Nofear喜提总决赛FMVP</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">07-09</em></li>
+						</ul>
+						<div class="f_lunbo2">
+							<div class="qiehuan">
+								<div class="sec_one">
+									<ul >
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020072215/3060de6e1162d909982db8958af5431f.1595403609.c546426f99aaa3b5a2f5c0d2817d0cac.230x140_76266.jpg" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【荣耀宅急送】23：世冠赛场选手第一视角，你学会了吗？</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020071519/12522320eebcc3a99bcd3a9c6289af0b.1594811686.1ea3f5ab7774ff64fca64145241d6df1.230x140_78916.png" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">《逐梦荣耀》第一期：2020王者荣耀世冠KPLGT各队伍现状</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020070313/e7cdf5869aff0ae3e966204150198383.1593755856.367d405e5c55e4d94a5979b510ad5989.230x140_77559.png" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">12支豪门争夺3200万奖金，王者荣耀世冠今日开战</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020070215/77eaa16c2252ebcfb6efcff0b75e6387.1593675199.b9fd09a3305f4dbcdec6a099bbfda951.230x140_84429.PNG" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【小绿绿TOP3】清清芈月细节操作越塔击杀满血蒙恬！</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020062317/7105cb2fe9520aea8f8129310bb22588.1592904932.fed38e10cd439ceef9eb7312d0310b80.230x140_80168.PNG" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【加菲】居里组合精彩相声解说，是真的很机车诶！</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020081015/e4da3b7fbbce2345d7772b0674a318d5.1597044917.26178463ea38cae95619ff8fa975f454.230x140_56232.jpg" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">《逐梦荣耀》第四期：ROX独家采访 干就完事死亡A组信心满满</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="https://itea-cdn.qq.com/file/tgl/2020062315/7105cb2fe9520aea8f8129310bb22588.1592898108.2b82acb79f86f6af7faac07bad1b4a61.184x124_55829.PNG" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">《逐梦荣耀》第三期：是VSG星火燎原 还是ROX凤凰浴火涅槃</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//itea-cdn.qq.com/file/tgl/2020062021/77ed36f4b18679ce54d4cebda306117e.1592659006.a03190a2507225f7ae64a32afe22e186.230x140_47405.jpg" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【加菲】世冠强强对决即将拉开帷幕</a><div class="bigreplay"><span ></span></div></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li >
+						<ul class="f_lunbo1">
+							<img src="//ossweb-img.qq.com/upload/webplat/info/yxzj/20200417/97451450843036.jpg" alt="">
+							<li style="	width: 455px;height: 66px;" class="f_lunbo11">
+							<a  style="width: 577px;height:32px;font-size: 24px;color: #333;" href="">久练则成弹无虚发—百里守约简析</a>
+							<a  style="line-height: 23px;font-size: 14px;color: #666666;width: 450px;height: 23px;" href="">久练则成弹无虚发—百里守约简析</a>
+							</li>
+							<li><span>模拟战</span><a href="">GK.E神 魏国缴械流法奶你知道吗？</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-20</em></li>
+							<li><span>模拟战</span><a href="">让观众更好读懂比赛,王者荣耀全国大赛幕后赛事转播揭秘</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-19</em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;"></li>
+							<li><span>模拟战</span><a href="">王者荣耀全国大赛冠军斗鱼祈：以进军职业赛为最终目标！</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-18</em></li>
+							<li><span>模拟战</span><a href="">全球好物推荐官降临王者峡谷：薇娅viya成为KPL手速女王</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-18</em></li>
+							<li><span>模拟战</span><a href="">胶州湾的星光 | 幸会，带来成长的舞台</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-17</em></li>
+							<li><span>模拟战</span><a href="">一招即浪第16期：如何做称职大哥，阅读蒙恬使用手册</a><em style="width: 50px;height: 21px;float: right;font-size: 12px;color: #b8b9c5;font-style: normal;">06-17</em></li>
+						</ul>
+						<div class="f_lunbo2">
+							<div class="qiehuan" >
+								<div class="sec_one" >
+									<ul >
+										<li><img src="//shp.qpic.cn/cfwebcap/0/45305cb091e1bf6b32c3d2eab3ef7356/0/?width=230&height=140" width="173px" height="110px"><p><span><img src="img/replay.png" >3432</span><em>2020-08-09</em></p><a href="">【王者炸麦了】世冠特别篇-2cat的成名之路</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/7acf648e21c4ca03dc4a17169c50e5bf/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （完结篇）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/41df8e2d0ef3d070e96dfbe4bd03aa8f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （中）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/affd5d5a787861f2a7022d45b7366457/0/?width=230&height=140" ><p><span><img src="img/replay.png" >23423</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （下）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/369be3ee5735e435d98bbd3a4d18405f/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】集结 百炼志问鼎 （上）</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/2386acc761d480313c8fb0e4d7f7f4c2/0/?width=230&height=140" ><p><span><img src="img/replay.png" >2333</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/929f73b8140623ac10bc43dad86b09ea/0/" ><p><span><img src="img/replay.png" >9063</span><em>2020-08-09</em></p><a href="">【王者炸麦了】春季赛大结局 谁能获得冠军？</a><div class="bigreplay"><span ></span></div></li>
+										<li><img src="//shp.qpic.cn/cfwebcap/0/00ff065559da2d5f12c9f77927c30fab/0/?width=230&height=140" ><p><span><img src="img/replay.png" >1.2w</span><em>2020-08-09</em></p><a href="">【王者炸麦了】成都AG超玩会&TS 谁更会毒奶？</a><div class="bigreplay"><span ></span></div></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 比赛队伍展示			 -->
+			<div class="foot_right">
+				<div class="foot_head">
+					<h3><img src="img/date.png" >KPL赛程</h3>
+					<a href=""><img src="img/jiahao.png" >更多</a>
+					<a style="padding: 0px 5px;border: 1px solid gold;color: black;font-size: 14px;margin-top:-px ;margin-right: 10px;" href=""><img src="img/钱.png" >购票</a>
+			</div>		
+			<div class="foot_nav">
+				<span style="margin:0px 10px ;">时间</span>
+				<span >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;战队</span>
+				<span >&nbsp;</span>
+				<span >战队</span>				
+			</div>
+			<div class="foot_foot">
+				<span  class="f1">06-13&nbsp;18:00</span>
+				<span class="f2" ><img src="//itea-cdn.qq.com/file/ingame/smoba/phpCwTlbK8806386861583126309.png" ><p>成都AG</p></span>
+				<span class="f3" >vs</span>
+				<span class="f4" ><img src="//itea-cdn.qq.com/file/ingame/smoba/phpQtZqec1362012311583126327.png" ><p>TS</p></span>	
+			</div>
+			<a href=""><img width="100%" src="//ossweb-img.qq.com/upload/webplat/info/yxzj/20200317/102681321262060.jpg" ></a>
+			</div>
+		</footer>
+		<!-- 尾部 -->
+		<div class="end" >
+			<div class="end_foot">
+				<div class="end_foot_header">
+					<a class="foot_logo" href="">&nbsp;</a>
+					<a class="foot_timi" href="">&nbsp;</a>
+				</div>
+				<div class="end_left">
+					<p class="ef_1"><em>抵制不良游戏</em><em>拒绝盗版游戏</em><em>注意自我保护</em><em>谨防受骗上当</em><em>适度游戏益脑</em><em>沉迷游戏伤身</em><em>合理安排时间</em><em>享受健康生活</em></p>
+					<p class="ef_2">《王者荣耀》全部背景故事发生于架空世界“王者大陆”中。相关人物、地理、事件均为艺术创作，并非正史。若因观看王者故事对相关历史人物产生兴趣，建议查阅正史记载。</p>
+				</div>
+				<div class="end_right">
+					<p class="ef_3"><a href="">腾讯互动娱乐</a>|<a href="">服务条款</a>|<a href="">隐私保护指引</a>|<a href="">儿童隐私保护指引</a>|<a href="">腾讯游戏招聘</a>|<a href="">腾讯游戏客服</a>|<a href="">游戏列表</a>|<a href="">广告服务及商务合作</a></p>
+				    <p>COPYRIGHT © 1998 - 2020 TENCENT. ALL RIGHTS RESERVED.</p>
+					<p><span><img src="//game.gtimg.cn/images/js/2018foot/logo/gswj.png" width="14px" height="14px"></span><a href="">工商网监电子标识</a><a href="">粤网文[2017]6138-1456号</a><a href="">（总）网出证（粤）字第057号</a> </p>
+					<p><span><img src="//game.gtimg.cn/images/js/2018foot/logo/icplogo.png" width="14px" height="14px"></span><a href=""></a>文网游备字[2016]M-CSG 0059 号<a href="">新广出审[2017] 6712号</a><a href="">ISBN 978-7-7979-8408-9</a></p>
+					<p>全国文化市场统一举报电话：12318</p>
+				</div>
+			</div>			
+		</div>
+			
+		<script type="text/javascript">
+			$(".header_two").mouseover(function(){
+				$(".header_three").stop().slideDown();
+				$(".header_three").css("display","block");
+			})
+			$(".header_one").mouseover(function(){
+				$(".header_three").stop().slideUp();
+				$(".header_three").css("display","none");
+			})
+			$("nav").mouseover(function(){
+				$(".header_three").stop().slideUp();
+				$(".header_three").css("display","none");
+			})
+			var i=0;
+			var timer =null;
+			timer = setInterval(function(){
+				i++;
+				$(".lunbo>ul").stop().animate({"left":-605*i+"px"},500);
+				if(i==5){
+					i=0;
+					$(".lunbo>ul").stop().animate({"left":"0px"},0);
+				}		
+			$(".lunbo_xia>span").eq(i).css({"background":"rgb(84,83,90)","color":"gold"}).siblings().css({"background":"rgb(55,54,61)","color":"#808080"});
+			},3000);
+			$(".lunbo_xia>span").mouseover(function(){
+				i =$(this).index();
+				$(".lunbo>ul").stop().animate({"left":-605*i+"px"},0);
+				$(".lunbo_xia>span").eq(i).css({"background":"rgb(84,83,90)","color":"gold"}).siblings().css({"background":"rgb(55,54,61)","color":"#808080"});
+			})
+			
+			$(".nt_mid>.nt_mid1>li").mouseover(function(){				
+				d =$(this).index();
+				$(".nt_mid>.nt_mid2>ul").stop().animate({"left":-325*d+"px"},100);				
+			})
+			$(".s_nav>a").mouseover(function(){
+				$(this).css("border-bottom","3px"+" solid gold").siblings().css("border-bottom","none");
+			})
+			$(".s_nav>a").mouseout(function(){
+				$(this).css("border-bottom","3px"+" solid gold")
+			})
+			$(".s_mid2>a").mouseover(function(){
+				$(this).css("border-bottom","3px"+" solid gold").siblings().css("border-bottom","none");
+			})
+			$(".s_mid2>a").mouseout(function(){
+				$(this).css("border-bottom","3px"+" solid gold")
+			})
+			// 内容中心
+			$(".s_nav1>.s_nav11>li").mouseover(function(){
+				$(this).css("background","gold").children("color","white");
+				$(this).siblings().css("background","#f5f5f5").children().css("color","rgba(0,0,0,0.6)");
+			})
+			$(".s_nav1>.s_nav12>li").mouseover(function(){
+				$(this).css("background","gold").children("color","white");
+				$(this).siblings().css("background","#f5f5f5").children().css("color","rgba(0,0,0,0.6)");
+			})
+			$(".s_nav1>.s_nav11>li").mouseout(function(){
+				$(this).css("background","gold").children().css("color","white");
+			})
+			$(".s_nav1>.s_nav12>li").mouseout(function(){
+				$(this).css("background","gold").children().css("color","white");
+			})
+			
+			$(".s_nav1>.s_nav11>li").mouseover(function(){
+				d =$(this).index();
+				$(".qiehuan>div").stop().animate({"top":-401*d+"px"},0);
+			})	
+			$(".s_nav1>.s_nav12>li").mouseover(function(){
+				d =$(this).index();
+				console.log(d);
+				$(".qiehuan>div").stop().animate({"top":-401*d-3208+"px"},0);
+			})
+			$(".s_nav>a").mouseover(function(){
+				d =$(this).index();
+				$(".s_nav1>ul").stop().animate({"top":-43*d+"px"},0);				
+			})
+			$(".s_mid2>a").mouseover(function(){
+				d =$(this).index();
+				$(".s_Foot>div").stop().animate({"left":-297.08*d+"px"},100);				
+			})
+			$(".foot_nav>a").mouseover(function(){
+				var  d=$(this).index();
+				$(this).css("border-bottom","3px solid gold").siblings().css("border-bottom","none");
+				$(".foot_lunbo>li").eq(d).show().siblings().hide();
+			})
+			$(".foot_nav>a").mouseout(function(){
+				$(this).css("border-bottom","3px solid gold");
+			})
+			$(".herolist>ul>li").mouseover(function(){
+				d =$(this).index();
+				$(".herolist>div>div").eq(d).show().siblings().hide();
+				$(this).css({"background":"gold","color":"white"}).siblings().css({"background":"#F5F5F5","color":"#323235"})
+			})
+			$(".lis3").mouseover(function(){
+				$(".herolist").show();
+			})
+			$(".qiehuan").mouseover(function(){
+				$(".herolist").hide();
+			})
+			$(".s_nav>a").mouseover(function(){
+				$(".herolist").hide();
+			})
+			$(".list1").mouseover(function(){
+				$(this).children("div").css("display","block");
+				$(this).css("marginBottom","80px");
+				$(this).children("img").css("opacity","1");
+				$(this).siblings().children("img").css("opacity","0");
+				$(this).siblings().children("div").css("display","none");
+				$(this).siblings().css("marginBottom","20px");
+			})
+			$(".txyxb").mouseover(function(){
+				$(".gamelist").css("display","block")
+			})
+			$("nav").mouseover(function(){
+				$(".gamelist").css("display","none")
+			})
+			// qq登录	
+			$(".denglu>.guanbi").click(function(e){
+							e.preventDefault();
+							$(".heibu").css("display","none");
+							$(".denglu").css("display","none");
+						})
+						$(".denglu>.weixin").click(function(e){
+							e.preventDefault();
+							$(".heibu").css("background-color","rgb(230, 245, 255)");
+							$(".denglu").css("display","none");
+							$(".erweimadenglu").css("display","block");
+						})
+						$(".denglu>.qq").click(function(e){
+							e.preventDefault();
+							$(".denglu").css("display","none");
+							$(".heibu").css("background-color","rgb(230, 245, 255)");
+							$(".qqmimadenglu").css("display","block");
+						})
+						$(".qqdenglu>.qqdenglu_erweima").mousemove(function(){
+							$(".qqdenglu>.qqdenglu_other").css("display","block")
+						})
+						$(".qqdenglu>.qqdenglu_erweima").mouseout(function(){
+							$(".qqdenglu>.qqdenglu_other").css("display","none")
+						})
+						$(".qqdenglu>.qqdenglu_footer>a").click(function(e){
+							e.preventDefault();
+							$(".qqmimadenglu").css("display","block");
+							$(".qqdenglu").css("display","none");
+						})
+						$(".qqdenglu>span").click(function(){
+							$(".qqdenglu").css("display","none");
+								$(".heibu").css("display","none");
+								$(".qqdenglu>span").css("background-color","#f3c258")
+						})
+						$(".qqmimadenglu>.text>#tex").click(function(){
+							$(".qqmimadenglu>.text").css("background-position","-1px -45px")
+						})
+						$(".qqmimadenglu>.passw>#pass").click(function(){
+							$(".qqmimadenglu>.passw").css("background-position","-1px -45px")
+						})
+						$(".qqmimadenglu>.qqmimadenglu_p2").click(function(e){
+							e.preventDefault();
+							$(".qqmimadenglu").css("display","none");
+							$(".qqdenglu").css("display","block");
+						})
+						$(".qqmimadenglu>.text").click(function(){
+							$(this).children("input").attr("placeholder","");
+							$(this).siblings("div").children("input").attr("placeholder","请输入密码");
+						})
+						$(".qqmimadenglu>.passw").click(function(){
+						
+						$(this).children("input").attr("placeholder","");
+							$(this).siblings("div").children("input").attr("placeholder","支持QQ号/邮箱/手机号登陆");
+						})
+						$(".qqmimadenglu>span").click(function(){
+							$(".qqmimadenglu").css("display","none");
+								$(".heibu").css("display","none");
+						})
+						 $(".qqmimadenglu>.text>input").focus(function(){
+						 	$(".qqmimadenglu>.span2").css("display","none");
+						 })
+					
+			            $(".qqmimadenglu>.text>input").blur(function(){
+			            	var pattern1 = /^[1][3|5|6|7|8|9]{1}[0-9]{9}$/ig;
+			            	var  pattern2 = /^([a-zA-Z0-9_\.\-]+)@([a-zA-Z0-9_\.\-]+)\.([a-zA-Z]{2,4})$/ig;
+			            	var pattern3 = /^[1-9]{1}[0-9]+$/ig;
+			            	if(pattern1.test($("#tex").val())|pattern2.test($("#tex").val())|pattern3.test($("#tex").val())){
+			       
+			            	}else{
+			            		$(".qqmimadenglu>.span2").css("display","block");
+			            	}
+			            })
+						$(".erweimadenglu>span").click(function(){
+							$(".erweimadenglu").css("display","none");
+								$(".heibu").css("display","none");
+								$(".qqmimadenglu>span").css("background-color","#f3c258");
+						})
+						$(".header_two>div>a").click(function(e){
+						    e.preventDefault();
+						    $(".heibu").css("display","block");
+						    $(".denglu").css("display","block");
+						   })
+						   $(".header_two>div>a").click(function(e){
+						    $(".heibu").css("display","block");
+						    $(".denglu").css("display","block");
+						    e.preventDefault();
+						   })					
+		</script>
+	</body>
+</html>
